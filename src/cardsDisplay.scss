@@ -1,0 +1,40 @@
+.cardholder {
+    display: grid;
+    grid: auto-flow / 2fr 2fr 2fr 2fr;
+  }
+  
+  .cardholder > div {
+    background-color: #b1b1b1;
+    width: 100%;
+    height: auto;
+    outline: 4px solid #ffffff;
+  }
+  
+  @media (max-width: 1400px) {
+    .cardholder {
+      display: grid;
+      grid: auto-flow / 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .cardholder {
+      display: grid;
+      grid: auto-flow / 1fr 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .cardholder {
+      display: grid;
+      grid: auto-flow / 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cardholder {
+      display: grid;
+      grid: auto-flow / 1fr;
+    }
+  }
+  

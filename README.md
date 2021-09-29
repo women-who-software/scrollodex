@@ -9,10 +9,10 @@ More coming soon!
 <Add overview of what scrollodex is>
 
 ## Contributing
-We invite anyone to raise contribute, raise issues, and create pull requests. [See our full contribution guidelines.](CONTIBUTING.md)
+This repo will begin as a Hacktober fest project. Please attend our Meetup (Oct 13, more info coming soon) before contributing. [See our full contribution guidelines.](CONTIBUTING.md)
 
 ## Requirements
-- Node 15+
+- Node 12+
 - Yarn
 
 ## Installation

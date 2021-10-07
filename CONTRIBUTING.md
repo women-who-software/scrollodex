@@ -28,8 +28,8 @@ If you have questions about an issue leave it as a comment in the issue.
 5. A member of the Women Who Code Boulder/Denver volunteer team will work with you on progressing/ merging your change.
 
 Pull request may follow one of two paths:
-1. Acceptance, meaning that a Women Who Code Boulder/Denver volunteer will review it and merge into codebase or adding 'hacktoberfest-accepted' label
-2. Rejection, meaning a Women Who Code Boulder/Denver volunteer will either flag the PR as 'invalid' or 'spam' or close the pull request.
+1. Acceptance, meaning that a Women Who Code Boulder/Denver volunteer will review it and merge into codebase or add a 'hacktoberfest-accepted' label
+2. Rejection, meaning a Women Who Code Boulder/Denver volunteer will either flag the PR as 'invalid' or 'spam' or close the pull request
 
 ## Any contributions you make will be under the [MIT](https://choosealicense.com/licenses/mit/) License
 All submissions are made subject to the conditions in the LICENSE file.  

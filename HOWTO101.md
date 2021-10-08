@@ -49,7 +49,7 @@ Wonder what this whole `git` business is? Read up on it here: https://www.freeco
 --[VSCode](https://code.visualstudio.com/download)
 - In the `src` folder, you'll see `cards`.  You can create your own card folder here.  Check out `exampleCard` for reference!
 
-## Step 6: Add and Commit
+## Step 7: Add and Commit
 - you need to let `git` know what your changes were
 - in your terminal, type `git add .`
 - then, `git commit -m "[tell git what the change was]"`

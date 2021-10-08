@@ -49,14 +49,14 @@ Wonder what this whole `git` business is? Read up on it here: https://www.freeco
 --[VSCode](https://code.visualstudio.com/download)
 - In the `src` folder, you'll see `cards`.  You can create your own card folder here.  Check out `exampleCard` for reference!
 
-## Step 7: Add and Commit
+## Step 6: Add and Commit
 - you need to let `git` know what your changes were
 - in your terminal, type `git add .`
 - then, `git commit -m "[tell git what the change was]"`
 - ex:  `git commit -m "add card"`
 - writing commit messages is an art!  For a deeper dive, [read this article about commit messages](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/).
 
-## Step 6: Submit a Pull Request
+## Step 7: Submit a Pull Request
 - Pull Requests (PRs) let someone review your code before they "merge" it into the main branch
 - first, you `git push`
 - then, create a PR from your repository to the main one

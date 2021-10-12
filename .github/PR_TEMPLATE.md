@@ -9,6 +9,7 @@
 # Changes include
 - [ ] Bugfix (non-breaking change that solves an issue)
 - [ ] New feature (non-breaking change that adds functionality)
+- [ ] Documentation (explains but does not affect functionality)
 - [ ] Breaking change (change that is not backwards-compatible and/or changes current functionality)
 
 # Notes

@@ -5,6 +5,8 @@ Welcome! Scrollodex is an open-source project created and maintained by members 
 ## Contributing
 This repo will begin as a Hacktoberfest project so it is NOT ready for contributions yet. Please attend our [Meetup](https://www.meetup.com/Women-Who-Code-Boulder-Denver/events/281109143/) on Oct 13 before contributing. [See our full contribution guidelines.](CONTRIBUTING.md)
 
+To get started, read and follow along with our [How To 101: The Non-Scary Guide](HOWTO101.md)!
+
 ## Requirements
 - Node
 - Yarn

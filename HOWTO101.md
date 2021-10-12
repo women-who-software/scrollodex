@@ -29,8 +29,11 @@ Wonder what this whole `git` business is? Read up on it here: https://www.freeco
 
 ## Step 3:  Install stuff
 
+- make sure you have node installed! You can check by typing `npm -v` into your terminal. If you have it, it will give you the version that you have.
+- if you don't have node, you can [get it here](https://nodejs.org/en/download/).
 - type `yarn install` into your terminal
 - don't have `yarn`?  Install it here: https://yarnpkg.com/getting-started/install.
+- (ever wonder what the difference is between node and yarn? Me too! Turns out, they do the same thing, but yarn is more user-friendly. [This article](https://www.geeksforgeeks.org/difference-between-npm-and-yarn/) goes more in-depth)
 - after the install finishes, type `yarn start`
 - your browser will automatically open to `localhost:3000` and show you some starter business cards
 
@@ -56,10 +59,12 @@ Wonder what this whole `git` business is? Read up on it here: https://www.freeco
 - ex:  `git commit -m "add card"`
 - writing commit messages is an art!  For a deeper dive, [read this article about commit messages](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/).
 
-## Step 6: Submit a Pull Request
+## Step 7: Submit a Pull Request
 - Pull Requests (PRs) let someone review your code before they "merge" it into the main branch
 - first, you `git push`
 - then, create a PR from your repository to the main one
 - you can do this by going to your github
 - you'll see the branch you just pushed in yellow, with a green "compare and pull request" button
+-- Base: `wwcodecolorado/scrollodex`  
+-- Head (this is your branch): `[your-username]/scrollodex`
 - click that button!

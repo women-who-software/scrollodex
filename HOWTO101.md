@@ -27,16 +27,17 @@ To get it on your computer,
 
 Wonder what this whole `git` business is? Read up on it here: https://www.freecodecamp.org/news/an-introduction-to-git-for-absolute-beginners-86fa1d32ff71/.
 
-## Step 3:  Install stuff
+## Step 3:  Install & setup stuff
 
-- make sure you have node installed! You can check by typing `npm -v` into your terminal. If you have it, it will give you the version that you have.
-- if you don't have node, you can [get it here](https://nodejs.org/en/download/).
-- type `yarn install` into your terminal
-- don't have `yarn`?  Install it here: https://yarnpkg.com/getting-started/install.
-- (ever wonder what the difference is between node and yarn? Me too! Turns out, they do the same thing, but yarn is more user-friendly. [This article](https://www.geeksforgeeks.org/difference-between-npm-and-yarn/) goes more in-depth)
-- after the install finishes, type `yarn start`
-- your browser will automatically open to `localhost:3000` and show you some starter business cards
+Ensure you have these installed on your system:
+- Node. You can check by typing `node -v` into your terminal. If you have it, it will give you the version that you have. If you don't have node installed, you can [get it here](https://nodejs.org/en/download/).
+- Yarn. Check if you have yarn installed by typing `yarn -v`. If it's not found, install it with `npm install --global yarn`. More info on that [here](https://yarnpkg.com/getting-started/install).
+Now you are ready to run the project:
+- type `yarn install` into your terminal ( this will install all the dependencies listed within package.json in the local node_modules folder.)
+- after the install finishes, type `yarn start` (this will execute start command listed in package.json/scripts/start)
+- your browser will automatically open to `localhost:3000` and show the current version of the Scrollodex project
 
+Ever wonder what the difference is between node and yarn? Us too! Turns out, they do the same thing, but yarn is more user-friendly. [This article](https://www.geeksforgeeks.org/difference-between-npm-and-yarn/) goes more in-depth)
 
 ## Step 4: Branch Off
 

@@ -26,9 +26,6 @@ function CardsDisplay(props) {
         <PalesaCard />
       </div>
 
-      <div>
-        <KristiCard />
-      </div>
   );
 }
 

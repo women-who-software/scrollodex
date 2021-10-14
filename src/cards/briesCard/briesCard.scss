@@ -1,0 +1,16 @@
+.card-details {
+  position: relative;
+  top: -0.5em;
+
+  p {
+    margin: 0;
+  }
+}
+
+.imageContainer {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin: calc(50% - 60px) 1em;
+  border-radius: 50%;  
+}

@@ -6,6 +6,7 @@ import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
 import JennDiazCard from './cards/jennDiazCard/jennDiazCard'
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
+import BriesCard from './cards/briesCard/briesCard';
 
 
 function CardsDisplay(props) {
@@ -21,6 +22,8 @@ function CardsDisplay(props) {
       <div><KristiCard /></div>
 
       <div><RachaelCard /></div>
+
+      <div><BriesCard /></div>
 
     </div>
   );

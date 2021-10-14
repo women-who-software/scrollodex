@@ -21,6 +21,8 @@ function CardsDisplay(props) {
 
       <div><KristiCard /></div>
 
+      <div><ChumleyCard /></div>
+
       <div><RachaelCard /></div>
 
       <div><BriesCard /></div>

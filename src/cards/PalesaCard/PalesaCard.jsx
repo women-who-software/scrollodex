@@ -16,7 +16,7 @@ function PalesaCard() {
             <p>Backend Developer</p>
             <p>leeann.mokoena@gmail.com</p>
             <p>www.janedoe.com</p>
-            <p>GitHub:LeeAnn-Mokoena</p>
+            <p>GitHub Handle: LeeAnn-Mokoena</p>
       </div>
 
     </div>

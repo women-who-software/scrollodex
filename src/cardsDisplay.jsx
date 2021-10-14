@@ -19,7 +19,7 @@ function CardsDisplay(props) {
       </div>
 
       <div>
-        <KristiCard  />
+        <KristiCard />
       </div>
 
       <div>

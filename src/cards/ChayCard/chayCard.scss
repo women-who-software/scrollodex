@@ -1,0 +1,30 @@
+.card-chay   {
+    color: rgb(255, 255, 255);
+}
+
+.cardContainer-chay{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    background: #9ee9f7;
+    background: -webkit-linear-gradient(#84e0cc, #293f50);
+    background:  -moz-linear-gradient(#84ddca, #293f50);
+    background:  linear-gradient(#77c2b2, #293f50);
+}
+.card-chay{
+    margin: auto;
+    text-align: center;
+}
+.image {
+    background-image: url(./chay.png);
+  }
+
+.imageContainer-chay{
+    width: 120px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px dashed rgb(255, 255, 255);
+}
+

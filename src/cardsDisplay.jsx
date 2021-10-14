@@ -2,6 +2,7 @@ import React from 'react';
 import './cardsDisplay.scss';
 
 import ExampleCard from './cards/exampleCard/exampleCard';
+import JennDiazCard from './cards/jennDiazCard/jennDiazCard'
 //import DomCard from './Cards/DomCard';
 
 function CardsDisplay() {
@@ -12,7 +13,7 @@ function CardsDisplay() {
       </div>
 
       <div>
-        <ExampleCard />
+      <JennDiazCard />
       </div>
 
   

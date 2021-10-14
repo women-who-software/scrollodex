@@ -3,6 +3,7 @@ import './cardsDisplay.scss';
 
 import ExampleCard from './cards/exampleCard/exampleCard';
 //import DomCard from './Cards/DomCard';
+import KristiCard from './cards/kristiCard/kristiCard';
 
 function CardsDisplay() {
   return (
@@ -13,6 +14,10 @@ function CardsDisplay() {
 
       <div>
         <ExampleCard />
+      </div>
+
+      <div>
+        <KristiCard />
       </div>
 
   

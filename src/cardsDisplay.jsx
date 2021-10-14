@@ -30,9 +30,6 @@ function CardsDisplay(props) {
       <div>
         <KristiCard />
       </div>
-
-
-    </div>
   );
 }
 

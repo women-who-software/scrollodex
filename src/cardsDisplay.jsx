@@ -2,9 +2,9 @@ import React from 'react';
 import './cardsDisplay.scss';
 
 import ExampleCard from './cards/exampleCard/exampleCard';
-//import DomCard from './Cards/DomCard';
+import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 
-function CardsDisplay() {
+function CardsDisplay(props) {
   return (
     <div className="cardholder">
       <div>
@@ -13,6 +13,10 @@ function CardsDisplay() {
 
       <div>
         <ExampleCard />
+      </div>
+
+      <div>
+        <RachaelCard />
       </div>
 
   

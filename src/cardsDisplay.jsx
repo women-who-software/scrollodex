@@ -18,6 +18,10 @@ function CardsDisplay() {
       </div>
 
       <div>
+        <KristiCard  />
+      </div>
+
+      <div>
         <PalesaCard />
       </div>
 

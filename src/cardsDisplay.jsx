@@ -1,11 +1,13 @@
-import React from 'react';
-import './cardsDisplay.scss';
+import React from "react";
+import "./cardsDisplay.scss";
 
-import ExampleCard from './cards/exampleCard/exampleCard';
-//import DomCard from './Cards/DomCard';
+
+import ExampleCard from "./cards/exampleCard/exampleCard";
+import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
 
-function CardsDisplay() {
+
+function CardsDisplay(props) {
   return (
     <div className="cardholder">
       <div>
@@ -13,14 +15,14 @@ function CardsDisplay() {
       </div>
 
       <div>
-        <ExampleCard />
+        <IndigoCard />
       </div>
 
       <div>
         <KristiCard />
       </div>
 
-  
+
     </div>
   );
 }

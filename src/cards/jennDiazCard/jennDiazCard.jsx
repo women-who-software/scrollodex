@@ -8,7 +8,7 @@ function jennDiazCard() {
   return (
     <div className="jdcardContainer">
       <div>
-        <img className="cartoon" src={image} alt="cartoon image of person with long hair smiling at a computer" />
+        <img className="cartoon" src={image} alt="cartoon of person with long hair smiling at a computer" />
       </div>
       <div className="jdcard">
         <h3>Jenn Grenier Diaz</h3>

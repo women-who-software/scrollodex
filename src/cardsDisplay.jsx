@@ -2,7 +2,7 @@ import React from 'react';
 import './cardsDisplay.scss';
 
 import ExampleCard from './cards/exampleCard/exampleCard';
-import palesaCard from './cards/palesaCard/palesaCard';
+import PalesaCard from './cards/palesaCard/palesaCard';
 
 function CardsDisplay() {
   return (
@@ -14,6 +14,10 @@ function CardsDisplay() {
       <div>
         <ExampleCard />
       </div>
+
+      <div>
+          <PalesaCard />
+        </div>
 
   
     </div>

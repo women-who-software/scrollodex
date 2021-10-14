@@ -5,7 +5,7 @@ import { data } from "./data.js";
 
 export default function IndigoCard() {
   return (
-    <div className="cardContainer">
+    <div className="cardContainer-indigo">
       <div className="card">
         <img
           className="imageContainer"
@@ -14,11 +14,11 @@ export default function IndigoCard() {
         />
       </div>
 
-      <div className="card">
+      <div className="card-indigo">
         <h3>{data.name}</h3>
         <p>{data.role}</p>
         <p>{data.email}</p>
-        <p>{data.website}</p>
+        <a href={data.website}>{data.website}</a>
       </div>
     </div>
   );

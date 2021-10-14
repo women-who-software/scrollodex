@@ -1,15 +1,15 @@
-.cardContainer {
+.cardContainer-indigo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   align-items: center;
+  background: linear-gradient(to left top, white, #dda0dd);
 }
 .card {
   margin: auto;
   //padding: 1rem 1rem 1rem 1rem;
   //align-items: right;
   text-align: center;
-  //border: 2px solid white;
 }
 .image {
   background-image: url(./indigo_headshot.png);

@@ -4,7 +4,7 @@ import "./cardsDisplay.scss";
 import ExampleCard from './cards/exampleCard/exampleCard';
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
-import PalesaCard from './cards/palesaCard/palesaCard';
+import PalesaCard from './cards/palesaCard/PalesaCard';
 
 
 function CardsDisplay(props) {
@@ -25,6 +25,10 @@ function CardsDisplay(props) {
       <div>
         <PalesaCard />
       </div>
+
+
+
+    </div>
 
   );
 }

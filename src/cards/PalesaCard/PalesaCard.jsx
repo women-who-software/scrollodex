@@ -1,6 +1,6 @@
 import React from 'react';
 import './palesaCard.scss';
-import image from './palesaHeadShot.jpg';
+import image from './PalesaHeadShot.jpg';
 
 
 function PalesaCard() {
@@ -12,10 +12,10 @@ function PalesaCard() {
         </div>
 
         <div className="card">
-            <h3>Marissa Styles</h3>
+            <h3>Palesa Mokoena</h3>
             <p>Backend Developer</p>
-            <p>marissa@engineering.com</p>
-            <p>www.marissastyles.com</p>
+            <p>leeann.mokoena@gmail.com</p>
+            <p>GitHub Profile: Lee-Ann-Mokoena</p>
       </div>
 
     </div>

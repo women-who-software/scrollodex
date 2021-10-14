@@ -5,6 +5,7 @@ import "./cardsDisplay.scss";
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
+import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 
 
 function CardsDisplay(props) {
@@ -20,6 +21,10 @@ function CardsDisplay(props) {
 
       <div>
         <KristiCard />
+      </div>
+
+      <div>
+        <ChumleyCard />
       </div>
 
 

@@ -4,7 +4,7 @@ import "./cardsDisplay.scss";
 import ExampleCard from './cards/exampleCard/exampleCard';
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
-import PalesaCard from './cards/palesaCard/palesaCard';
+import PalesaCard from './cards/palesaCard/palesaCard;
 
 
 function CardsDisplay(props) {

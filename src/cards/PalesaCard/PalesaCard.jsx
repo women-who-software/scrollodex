@@ -1,6 +1,6 @@
 import React from 'react';
 import './palesaCard.scss';
-import image from './PalesaHeadShot.jpg';
+import image from './palesaheadshot.jpg';
 
 
 function PalesaCard() {

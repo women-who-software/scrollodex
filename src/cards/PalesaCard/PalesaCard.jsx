@@ -3,7 +3,7 @@ import './palesaCard.scss';
 import image from './palesaHeadShot.jpg';
 
 
-function ExampleCard() {
+function PalesaCard() {
   return (
     <div className="cardContainer">
 
@@ -23,4 +23,4 @@ function ExampleCard() {
   );
 }
 
-export default ExampleCard;
+export default PalesaCard;

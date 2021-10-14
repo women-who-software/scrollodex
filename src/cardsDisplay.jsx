@@ -2,7 +2,7 @@ import React from 'react';
 import './cardsDisplay.scss';
 
 import ExampleCard from './cards/exampleCard/exampleCard';
-import palesaCard from './Cards/palesaCard';
+import palesaCard from './cards/palesaCard/palesaCard';
 
 function CardsDisplay() {
   return (

@@ -12,11 +12,10 @@ function PalesaCard() {
         </div>
 
         <div className="card">
-            <h3>Palesa Mokoena</h3>
+            <h3>Marissa Styles</h3>
             <p>Backend Developer</p>
-            <p>leeann.mokoena@gmail.com</p>
-            <p>www.janedoe.com</p>
-            <p>GitHub Handle: LeeAnn-Mokoena</p>
+            <p>marissa@engineering.com</p>
+            <p>www.marissastyles.com</p>
       </div>
 
     </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./cardsDisplay.scss";
 
-
-import ExampleCard from "./cards/exampleCard/exampleCard";
+import ExampleCard from './cards/exampleCard/exampleCard';
+import KayleesCard from './cards/kayleesCard/kayleesCard'
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
 import ChayCard from './cards/ChayCard/ChayCard'
@@ -19,38 +19,36 @@ function CardsDisplay(props) {
       <div>
         <ExampleCard />
       </div>
-
       <div>
         <JennDiazCard />
       </div>
-
       <div>
         <IndigoCard />
       </div>
-
       <div>
         <KristiCard />
       </div>
-
       <div>
         <ChayCard />
       </div>
-
+      <div>
+        <KayleesCard />
+      </div>
       <div>
         <KesineeCard />
       </div>
-
       <div>
         <ChumleyCard />
       </div>
-
-      <div><RachaelCard /></div>
-
-      <div><PalesaCard /></div>
-
-      <div><BriesCard /></div>
-
-
+      <div>
+        <RachaelCard />
+      </div>
+      <div>
+        <PalesaCard />
+      </div>
+      <div>
+        <BriesCard />
+      </div>
     </div>
 
   );

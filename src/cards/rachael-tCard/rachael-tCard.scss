@@ -1,0 +1,19 @@
+.cardContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+}
+.card{
+  margin: auto;
+  text-align: center;
+}
+.image {
+  background-image: url(./rachael-t.png);
+}
+.imageContainer{
+  width: 120px;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+}

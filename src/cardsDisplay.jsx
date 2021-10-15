@@ -8,6 +8,8 @@ import KesineeCard from "./cards/kesineeCard/KesineeCard";
 import JennDiazCard from "./cards/jennDiazCard/jennDiazCard";
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
+import BriesCard from './cards/briesCard/briesCard';
+
 
 function CardsDisplay(props) {
   return (
@@ -36,9 +38,10 @@ function CardsDisplay(props) {
         <ChumleyCard />
       </div>
 
-      <div>
-        <RachaelCard />
-      </div>
+      <div><RachaelCard /></div>
+
+      <div><BriesCard /></div>
+
     </div>
   );
 }

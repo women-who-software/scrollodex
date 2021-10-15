@@ -1,6 +1,16 @@
-.card-chay   {
+.card-chay{
     color: rgb(255, 255, 255);
 }
+
+button a {
+    color: rgb(255, 255, 255);
+}
+
+button a:hover  {
+    color: #1AAB8A;
+}
+
+
 
 .cardContainer-chay{
     display: grid;
@@ -11,6 +21,7 @@
     background: -webkit-linear-gradient(#84e0cc, #293f50);
     background:  -moz-linear-gradient(#84ddca, #293f50);
     background:  linear-gradient(#77c2b2, #293f50);
+
 }
 .card-chay{
     margin: auto;
@@ -28,3 +39,44 @@
     border: 2px dashed rgb(255, 255, 255);
 }
 
+button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius: 50px;
+}
+button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.card-chay button {
+    margin-bottom: 20px;
+}

@@ -16,7 +16,8 @@ function ChayCard() {
             <h3>Chay McCormick</h3>
             <p>Front-End Web Developer</p>
             <p>chayanit.chaisri@gmail.com</p>
-            <p>www.linkedin.com/in/chayanit-chaisri</p>
+            {/* <p>www.linkedin.com/in/chayanit-chaisri</p> */}
+            <button><a href="www.linkedin.com/in/chayanit-chaisri">LinkedIn</a></button>
       </div>
 
     </div>

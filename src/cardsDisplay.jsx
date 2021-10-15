@@ -7,6 +7,7 @@ import KristiCard from './cards/kristiCard/kristiCard';
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import JennDiazCard from './cards/jennDiazCard/jennDiazCard'
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
+import BriesCard from './cards/briesCard/briesCard';
 
 
 function CardsDisplay(props) {
@@ -22,9 +23,10 @@ function CardsDisplay(props) {
       <div><KristiCard /></div>
 
       <div><ChumleyCard /></div>
-    
+
       <div><RachaelCard /></div>
 
+      <div><BriesCard /></div>
 
     </div>
   );

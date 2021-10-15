@@ -16,6 +16,9 @@ function RoniCard() {
             <h3>Roni Lockwood</h3>
             <p>Front-End Web Developer</p>
             <p>rtlockwoodwork@gmail.com</p>
+
+            <p>Links</p>
+            <a href="https://github.com/OlliesWorld" target="_blank" rel="noreferrer" alt="Roni's Github">GitHub</a>
             <a href="https://roni.rocks/" target="_blank" rel="noreferrer" alt="Roni's Portfolio site">Portfolio Site</a>
       </div>
 

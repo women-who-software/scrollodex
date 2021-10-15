@@ -4,6 +4,7 @@ import "./cardsDisplay.scss";
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
+import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import JennDiazCard from './cards/jennDiazCard/jennDiazCard'
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import BriesCard from './cards/briesCard/briesCard';

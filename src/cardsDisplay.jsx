@@ -2,7 +2,7 @@ import React from 'react';
 import './cardsDisplay.scss';
 
 import ExampleCard from './cards/exampleCard/exampleCard';
-//import DomCard from './Cards/DomCard';
+import RoniCard from './cards/roniCard/roniCard';
 
 function CardsDisplay() {
   return (
@@ -12,7 +12,7 @@ function CardsDisplay() {
       </div>
 
       <div>
-        <ExampleCard />
+        <RoniCard />
       </div>
 
   

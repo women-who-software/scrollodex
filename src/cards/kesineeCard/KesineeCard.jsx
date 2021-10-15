@@ -15,16 +15,27 @@ function KesineeCard() {
         <p>KesineePowers@gmail.com</p>
 
         <a
+          rel="noreferrer"
           className="link"
           target="_blank"
           href="https://www.linkedin.com/in/kesineepowers/"
         >
           {"LinkedIn"}
         </a>
-        <a className="link" target="_blank" href="https://github.com/KesineeP">
+        <a
+          rel="noreferrer"
+          className="link"
+          target="_blank"
+          href="https://github.com/KesineeP"
+        >
           {"GitHub"}
         </a>
-        <a className="link" target="_blank" href="https://kesineep.github.io/">
+        <a
+          rel="noreferrer"
+          className="link"
+          target="_blank"
+          href="https://kesineep.github.io/"
+        >
           {"Portfolio"}
         </a>
       </div>

@@ -1,11 +1,10 @@
 import React from "react";
 import "./cardsDisplay.scss";
 
-
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
-import KristiCard from './cards/kristiCard/kristiCard';
-
+import KristiCard from "./cards/kristiCard/kristiCard";
+import KesineeCard from "./cards/kesineeCard/KesineeCard";
 
 function CardsDisplay(props) {
   return (
@@ -21,8 +20,9 @@ function CardsDisplay(props) {
       <div>
         <KristiCard />
       </div>
-
-
+      <div>
+        <KesineeCard />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+{
+  "cardsDatabase": {
+    "brielle": {
+      "component": "BriesCard",
+      "data": {
+        "name": "Brielle Harrison",
+        "title": "Principal Software Engineering Manager at PayPal",
+        "emails": {
+          "work": "brielle@paypal.com"
+        },
+        "sites": {
+          "work": "www.paypal.com"
+        }
+      }
+    }
+  }
+}

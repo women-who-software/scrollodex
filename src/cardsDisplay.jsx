@@ -1,31 +1,36 @@
 import React from "react";
 import "./cardsDisplay.scss";
 
-import ExampleCard from './cards/exampleCard/exampleCard';
+
+import ExampleCard from "./cards/exampleCard/exampleCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
+import ChumleyCard from "./cards/chumleyCard/chumleyCard";
+import JennDiazCard from './cards/jennDiazCard/jennDiazCard'
+import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
+import BriesCard from './cards/briesCard/briesCard';
 import PalesaCard from './cards/PalesaCard/PalesaCard';
 
 
 function CardsDisplay(props) {
   return (
     <div className="cardholder">
-      <div>
-        <ExampleCard />
-      </div>
+    
+      <div><ExampleCard /></div>
 
-      <div>
-        <IndigoCard />
-      </div>
+      <div><JennDiazCard /></div>
 
-      <div>
-        <KristiCard />
-      </div>
+      <div><IndigoCard /></div>
 
-      <div>
-        <PalesaCard />
-      </div>
+      <div><KristiCard /></div>
 
+      <div><ChumleyCard /></div>
+
+      <div><RachaelCard /></div>
+
+      <div><PalesaCard /></div>
+
+      <div><BriesCard /></div>
 
 
     </div>

@@ -3,13 +3,13 @@ import "./cardsDisplay.scss";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
-import KristiCard from "./cards/kristiCard/kristiCard";
+import KristiCard from './cards/kristiCard/kristiCard';
+import ChayCard from './cards/ChayCard/ChayCard'
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
 import JennDiazCard from "./cards/jennDiazCard/jennDiazCard";
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import BriesCard from './cards/briesCard/briesCard';
-
 
 function CardsDisplay(props) {
   return (
@@ -31,6 +31,10 @@ function CardsDisplay(props) {
       </div>
 
       <div>
+        <ChayCard />
+      </div>
+
+      <div>
         <KesineeCard />
       </div>
 
@@ -41,6 +45,7 @@ function CardsDisplay(props) {
       <div><RachaelCard /></div>
 
       <div><BriesCard /></div>
+
 
     </div>
   );

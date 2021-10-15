@@ -1,6 +1,7 @@
 import React from "react";
 import "./cardsDisplay.scss";
 
+
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
@@ -10,6 +11,7 @@ import JennDiazCard from "./cards/jennDiazCard/jennDiazCard";
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import BriesCard from './cards/briesCard/briesCard';
+import PalesaCard from './cards/PalesaCard/PalesaCard';
 
 function CardsDisplay(props) {
   return (
@@ -44,10 +46,13 @@ function CardsDisplay(props) {
 
       <div><RachaelCard /></div>
 
+      <div><PalesaCard /></div>
+
       <div><BriesCard /></div>
 
 
     </div>
+
   );
 }
 

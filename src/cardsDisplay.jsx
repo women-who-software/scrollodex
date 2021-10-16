@@ -12,6 +12,7 @@ import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import BriesCard from './cards/briesCard/briesCard';
 import PalesaCard from './cards/PalesaCard/PalesaCard';
+import NoonCard from './cards/noonCard/NoonCard';
 
 function CardsDisplay(props) {
   return (
@@ -49,6 +50,7 @@ function CardsDisplay(props) {
       <div>
         <BriesCard />
       </div>
+      <div><NoonCard/></div>
     </div>
 
   );

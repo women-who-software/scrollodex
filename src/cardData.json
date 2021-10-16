@@ -12,6 +12,16 @@
           "work": "www.paypal.com"
         }
       }
+    },
+    "rhonda": {
+      "component": "RhondaCard",
+      "data": {
+        "name": "Rhonda Kremer",
+        "title": "Software Engineer @ Invitae",
+        "email": "rhondakremer@gmail.com",
+        "linkedin": "http://www.linkedin.com/in/rhondakremer",
+        "github": "https://github.com/rhondakremer"
+      }
     }
   }
 }

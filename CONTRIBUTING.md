@@ -32,7 +32,7 @@ Pull request may follow one of two paths:
 2. Rejection, meaning a Women Who Code Boulder/Denver volunteer will either flag the PR as 'invalid' or 'spam' or close the pull request
 
 ## Any contributions you make will be under the [MIT](https://choosealicense.com/licenses/mit/) License
-All submissions are made subject to the conditions in the [LICENSE file](../LICENSE).  
+All submissions are made subject to the conditions in the [LICENSE](./LICENSE) file.  
 
 ## Report bugs using Github's Issues
 We use GitHub issues to track public bugs. Report a bug by opening a new issue.

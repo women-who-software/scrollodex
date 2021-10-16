@@ -51,7 +51,9 @@ function CardsDisplay(props) {
       <div>
         <BriesCard />
       </div>
-      <RoniCard />
+      <div>
+        <RoniCard />
+      </div>
     </div>
 
   );

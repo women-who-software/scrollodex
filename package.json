@@ -8,10 +8,10 @@
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^3.4.1",
     "node-sass": "^6.0.1",
-    "react": "17.0.0",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
-    "react-dom": "17.0.0",
-    "react-scripts": "4.0.0",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
     "react-use": "^17.3.1",
     "sass": "1.35.1",
     "web-vitals": "^1.0.1"

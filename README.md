@@ -1,3 +1,5 @@
+<img alt="GitHub" src="https://img.shields.io/github/license/cinnamonxi/scrollodex">
+
 # Scrollodex
 
 Welcome! Scrollodex is an open-source project created and maintained by members of the Women Who Code Boulder/Denver in order to bring the community together, build something awesome, and spend some time hacking! Based on the classic rolodex or a business card pin wall, Scrollodex aims to be a fun place for Women Who Code members to add and display a business card.

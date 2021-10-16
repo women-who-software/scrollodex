@@ -2,9 +2,6 @@ import React from "react";
 import "./cardsDisplay.scss";
 
 import ExampleCard from './cards/exampleCard/exampleCard';
-<<<<<<< HEAD
-import RoniCard from './cards/roniCard/roniCard';
-=======
 import KayleesCard from './cards/kayleesCard/kayleesCard'
 import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from './cards/kristiCard/kristiCard';
@@ -15,7 +12,7 @@ import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import BriesCard from './cards/briesCard/briesCard';
 import PalesaCard from './cards/PalesaCard/PalesaCard';
->>>>>>> 167b6b829d6706f79f40c13469b0f05e3fb18aeb
+import RoniCard from './cards/roniCard/roniCard'
 
 
 function CardsDisplay(props) {
@@ -25,9 +22,6 @@ function CardsDisplay(props) {
         <ExampleCard />
       </div>
       <div>
-<<<<<<< HEAD
-        <RoniCard />
-=======
         <JennDiazCard />
       </div>
       <div>
@@ -56,8 +50,8 @@ function CardsDisplay(props) {
       </div>
       <div>
         <BriesCard />
->>>>>>> 167b6b829d6706f79f40c13469b0f05e3fb18a
       </div>
+      <RoniCard />
     </div>
 
   );

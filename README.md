@@ -1,4 +1,5 @@
-<img alt="GitHub" src="https://img.shields.io/github/license/wwcodecolorado/scrollodex"> <img alt="Netlify" src="https://img.shields.io/netlify/9b72a143-93e6-4ae2-a065-5b72ca57b676">
+[![GitHub License](https://img.shields.io/github/license/wwcodecolorado/scrollodex)](https://github.com/wwcodecolorado/scrollodex/blob/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b72a143-93e6-4ae2-a065-5b72ca57b676/deploy-status)](https://app.netlify.com/sites/scrollodex/deploys)
 
 # Scrollodex
 

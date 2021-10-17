@@ -1,4 +1,4 @@
-<img alt="GitHub" src="https://img.shields.io/github/license/cinnamonxi/scrollodex">
+<img alt="GitHub" src="https://img.shields.io/github/license/wwcodecolorado/scrollodex"> <img alt="Netlify" src="https://img.shields.io/netlify/9b72a143-93e6-4ae2-a065-5b72ca57b676">
 
 # Scrollodex
 

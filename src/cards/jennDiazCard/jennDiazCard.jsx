@@ -1,20 +1,32 @@
 import React from 'react';
 import './jennDiazCard.scss';
-import image from './jenn.png';
+import imageFront from './jenn.png';
+import imageBack from './jenn-on-bike.png';
+
 
 //
 
 function jennDiazCard() {
   return (
     <div className="jdcardContainer">
-      <div>
-        <img className="cartoon" src={image} alt="cartoon of person with long hair smiling at a computer" />
+      <div className="flip-image">
+        <div className="flip-image-inner"> 
+          <div className="flip-image-front"> 
+            <img className="jdImage" src={imageFront}  alt="Jenn wearing a blue Dockwa vest outside with trees and a path behind her" />
+          </div>
+          <div className="flip-image-back"> 
+            <img className="jdImage" src={imageBack}  alt="Jenn on a mountain bike descending a rock obstable" />
+          </div>
+        </div>
       </div>
-      <div className="jdcard">
-        <h3>Jenn Grenier Diaz</h3>
-        <p>Full Stack Software Engineer</p>
-        <p>JenniferAGrenier@gmail.com</p>
-        <p>https://github.com/JAGrenier</p>
+      <div className="jdCard">
+        <h3 className="jdInfo">Jenn Diaz</h3>
+        <p className="jdInfo">Junior Software Engineer</p>
+        <p>@ The Wanderlust Group</p>
+      <div className="jdLinks"> 
+        <a className="jdLink" href="https://github.com/JAGrenier">Github</a>       
+        <a className="jdLink" href="https://www.linkedin.com/in/jagdiaz">LinkedIn</a>
+      </div>
       </div>
     </div>
   );

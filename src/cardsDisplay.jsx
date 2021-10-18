@@ -12,11 +12,8 @@ import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import BriesCard from './cards/briesCard/briesCard';
 import PalesaCard from './cards/PalesaCard/PalesaCard';
-<<<<<<< HEAD
 import NoonCard from './cards/noonCard/NoonCard';
-=======
 import RhondaCard from './cards/rhondaCard/rhondaCard';
->>>>>>> upstream/main
 
 function CardsDisplay(props) {
   return (

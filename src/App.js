@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 //import './App.scss';
-import CardsDisplay from './cardsDisplay';
+import CardsDisplay from "./cardsDisplay";
 //import BootstrapDisplay from './BootstrapDisplay';
-import './index.css';
-import db from './cardData.json'
+import "./index.css";
+import db from "./cardData.json";
 
 // Create some context based on the data models stored in the cardData.json
 // file. This can be imported and used in any component below. This will allow
-// any card component to share data from the cardData.json file. 
+// any card component to share data from the cardData.json file.
 // See briesCard.jsx as an example of use.
 export const CardContext = React.createContext(db.cardsDatabase);
 
@@ -15,9 +15,9 @@ function App() {
   return (
     <CardContext.Provider value={db.cardsDatabase}>
       <div>
-        <CardsDisplay />
+        <CardsDisplay {...db} />
       </div>
-    </CardContext.Provider>   
+    </CardContext.Provider>
   );
 }
 

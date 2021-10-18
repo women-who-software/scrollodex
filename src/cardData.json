@@ -2,16 +2,28 @@
   "cardsDatabase": {
     "brielle": {
       "component": "BriesCard",
-      "data": {
-        "name": "Brielle Harrison",
-        "title": "Principal Software Engineering Manager at PayPal",
-        "emails": {
-          "work": "brielle@paypal.com"
-        },
-        "sites": {
-          "work": "www.paypal.com"
-        }
-      }
+      "name": "Brielle Harrison",
+      "title": "Principal Software Engineering Manager at PayPal",
+      "emails": {
+        "work": "brielle@paypal.com"
+      },
+      "sites": {
+        "work": "www.paypal.com"
+      },
+      "image": "./brielleharrison.png"
+    },
+    "indigo": {
+      "component": "indigo",
+      "name": "Indigo Starr",
+      "title": "Full-Stack Developer",
+      "emails": {
+        "personal": "Indigojstarr@gmail.com"
+      },
+      "sites": {
+        "LinkedIn": "https://www.linkedin.com/in/indigostarr/",
+        "Portfolio": "http://indigostarr.github.io/about"
+      },
+      "image": "./indigostarr.png"
     }
   }
 }

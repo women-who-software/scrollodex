@@ -1,5 +1,4 @@
-import React, { useContext, useState } from "react";
-import { CardContext } from "../App";
+import React from "react";
 import "./Card.scss";
 
 function Card(props) {
@@ -24,7 +23,7 @@ function Card(props) {
   return (
     <div className={`cardContainer ${props.component}`}>
       <div className="card">
-        <img className="imageContainer" src={filteredImage} />
+        <img className="imageContainer" src={filteredImage} alt={props.name} />
       </div>
       <div className="card">
         <div className="card-details">

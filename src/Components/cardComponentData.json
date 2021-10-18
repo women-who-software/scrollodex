@@ -1,0 +1,17 @@
+{
+  "cardsDatabase": {
+    "indigo": {
+      "component": "indigo",
+      "data": {
+        "name": "Indigo Starr",
+        "title": "Full-Stack Developer",
+        "email": "Indigojstarr@gmail.com",
+        "sites": {
+          "LinkedIn": "https://www.linkedin.com/in/indigostarr/",
+          "Github": "http://indigostarr.github.io/about"
+        },
+        "image": "./indigostarr.png"
+      }
+    }
+  }
+}

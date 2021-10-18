@@ -1,8 +1,7 @@
-import React, { useContext } from 'react';
-import { CardContext } from '../../App';
-import './briesCard.scss';
-import image from './skinnyBrie.jpg';
 import React, { useContext } from "react";
+import { CardContext } from "../../App";
+import "./briesCard.scss";
+import image from "./skinnyBrie.jpg";
 
 //
 
@@ -17,22 +16,22 @@ function BriesCard() {
 
       <div className="card">
         <div className="card-details">
-          <h3>{brielle.name}</h3>
-          <p>{brielle.title}</p>
+          <h3>{brielle.data.name}</h3>
+          <p>{brielle.data.title}</p>
           {
             // Loop through all the labeled emails and create a <p> tag for
             // each one. Add a unique key so react doesn't get mad.
-            Object.keys(brielle.emails || {}).map((label, idx) => (
+            Object.keys(brielle.data.emails || {}).map((label, idx) => (
               <p key={`e-${idx}`}>
-                {brielle.emails[label]} ({label})
+                {brielle.data.emails[label]} ({label})
               </p>
             ))
           }
           {
             // Do the same thing here for website values
-            Object.keys(brielle.sites || {}).map((label, idx) => (
+            Object.keys(brielle.data.sites || {}).map((label, idx) => (
               <p key={`s-${idx}`}>
-                {brielle.sites[label]} ({label})
+                {brielle.data.sites[label]} ({label})
               </p>
             ))
           }

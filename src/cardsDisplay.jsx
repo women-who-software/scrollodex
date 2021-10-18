@@ -4,7 +4,6 @@ import Card from "./Components/Card";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";
-//import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from "./cards/kristiCard/kristiCard";
 import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";

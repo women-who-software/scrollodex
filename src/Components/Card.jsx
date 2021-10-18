@@ -3,7 +3,7 @@ import "./Card.scss";
 
 function Card(props) {
   // add file path to image in JSON and use as a filter
-  const filter = props.image;
+  const filter = props.data.image;
   const cache = {};
 
   // use function to import static file paths
@@ -23,31 +23,40 @@ function Card(props) {
   return (
     <div className={`cardContainer ${props.component}`}>
       <div className="card">
-        <img className="imageContainer" src={filteredImage} alt={props.name} />
+        <img
+          className="imageContainer"
+          src={filteredImage}
+          alt={props.data.name}
+        />
       </div>
       <div className="card">
         <div className="card-details">
-          <h3 key={props.name}>{props.name}</h3>
-          <p>{props.title}</p>
+          <h3 key={props.data.name}>{props.data.name}</h3>
+          <p>{props.data.title}</p>
+          <p>{props.data.email}</p>
           {
             // Loop through all the labeled emails and create a <p> tag for
             // each one. Add a unique key so react doesn't get mad.
-            Object.keys(props.emails || {}).map((label, idx) => (
+            Object.keys(props.data.emails || {}).map((label, idx) => (
               <p key={`e-${idx}`}>
-                {props.emails[label]} ({label})
+                {props.data.emails[label]} ({label})
                 <br />
               </p>
             ))
           }
-          {
-            // Do the same thing here for website values
-            Object.keys(props.sites || {}).map((label, idx) => (
-              <a key={`s-${idx}`} href={props.sites[label]}>
-                {label != "work" ? label : `${props.sites[label]} (${label})`}
-                <br />
-              </a>
-            ))
-          }
+          <div>
+            {
+              // Do the same thing here for website values
+              Object.keys(props.data.sites || {}).map((label, idx) => (
+                <a key={`s-${idx}`} href={props.data.sites[label]}>
+                  {label !== "work"
+                    ? label
+                    : `${props.data.sites[label]} (${label})`}
+                  &nbsp;&nbsp;
+                </a>
+              ))
+            }
+          </div>
         </div>
       </div>
     </div>

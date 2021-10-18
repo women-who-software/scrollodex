@@ -2,28 +2,26 @@
   "cardsDatabase": {
     "brielle": {
       "component": "BriesCard",
-      "name": "Brielle Harrison",
-      "title": "Principal Software Engineering Manager at PayPal",
-      "emails": {
-        "work": "brielle@paypal.com"
-      },
-      "sites": {
-        "work": "www.paypal.com"
-      },
-      "image": "./brielleharrison.png"
+      "data": {
+        "name": "Brielle Harrison",
+        "title": "Principal Software Engineering Manager at PayPal",
+        "emails": {
+          "work": "brielle@paypal.com"
+        },
+        "sites": {
+          "work": "www.paypal.com"
+        }
+      }
     },
-    "indigo": {
-      "component": "indigo",
-      "name": "Indigo Starr",
-      "title": "Full-Stack Developer",
-      "emails": {
-        "personal": "Indigojstarr@gmail.com"
-      },
-      "sites": {
-        "LinkedIn": "https://www.linkedin.com/in/indigostarr/",
-        "Portfolio": "http://indigostarr.github.io/about"
-      },
-      "image": "./indigostarr.png"
+    "rhonda": {
+      "component": "RhondaCard",
+      "data": {
+        "name": "Rhonda Kremer",
+        "title": "Software Engineer @ Invitae",
+        "email": "rhondakremer@gmail.com",
+        "linkedin": "http://www.linkedin.com/in/rhondakremer",
+        "github": "https://github.com/rhondakremer"
+      }
     }
   }
 }

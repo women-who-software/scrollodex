@@ -11,3 +11,7 @@
 [6 tips to make your website more accessible](https://uxdesign.cc/6-tips-to-make-your-website-more-accessible-f412ab410122)  
 [How to Use the WAVE Web Accessibility Evaluation Tool](https://jagrenier.medium.com/how-to-use-the-wave-web-accessibility-evaluation-tool-9df8588a3d16)    
 [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) 
+
+## Beginner Friendly Repositories
+
+[Women Who Code Hacktoberfest 2021](https://github.com/WomenWhoCode/hacktoberfest21): The repo contains the code for the website for resources and projects worked on by communities within WWC

@@ -22,7 +22,7 @@ function jennDiazCard() {
       <div className="jdCard">
         <h3 className="jdInfo">Jenn Diaz</h3>
         <p className="jdInfo">Junior Software Engineer</p>
-        <p>@ The Wanderlust Group</p>
+        <p>at The Wanderlust Group</p>
       <div className="jdLinks"> 
         <a className="jdLink" href="https://github.com/JAGrenier">Github</a>       
         <a className="jdLink" href="https://www.linkedin.com/in/jagdiaz">LinkedIn</a>

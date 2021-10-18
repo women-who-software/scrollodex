@@ -1,5 +1,6 @@
 import React from "react";
 import "./cardsDisplay.scss";
+import Card from "./Components/Card";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";

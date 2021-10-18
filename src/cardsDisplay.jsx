@@ -11,8 +11,9 @@ import KesineeCard from "./cards/kesineeCard/KesineeCard";
 import JennDiazCard from "./cards/jennDiazCard/jennDiazCard";
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
-//import BriesCard from './cards/briesCard/briesCard';
+import BriesCard from "./cards/briesCard/briesCard";
 import PalesaCard from "./cards/PalesaCard/PalesaCard";
+import NoonCard from "./cards/noonCard/NoonCard";
 import RhondaCard from "./cards/rhondaCard/rhondaCard";
 
 function CardsDisplay(props) {
@@ -48,6 +49,15 @@ function CardsDisplay(props) {
 
       <div>
         <PalesaCard />
+      </div>
+      <div>
+        <BriesCard />
+      </div>
+      <div>
+        <NoonCard />
+      </div>
+      <div>
+        <RhondaCard />
       </div>
 
       {Object.entries(contributors).map((contributor) => {

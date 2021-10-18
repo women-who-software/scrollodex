@@ -6,7 +6,7 @@ function NoonCard() {
   return (
     <div className="noonCardContainer">
         <div className="card">
-            <img className="imageContainer" src={image} alt="noon profile picture" />
+            <img className="imageContainer" src={image} alt="noon-profile" />
         </div>
         <div className="card-info">
             <h3 className="name-h3">Noon Schluntz</h3>

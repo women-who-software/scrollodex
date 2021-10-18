@@ -7,3 +7,4 @@
 [Rebecca Chumley](https://github.com/rebeccachumley), Frontend Developer from Fredericksburg, VA   
 [Jennifer Grenier Diaz](https://github.com/JAGrenier), Full Stack Software Engineer from Fort Collins, CO   
 [Rachael Thomas](https://github.com/rachael-t), Frontend Developer from Denver, CO   
+[Supamas Sirichotiyakul](https://github.com/supamasS), Software Engineer from Gilbert, AZ & New Hartford, NY  

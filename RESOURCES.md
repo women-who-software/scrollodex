@@ -11,3 +11,13 @@
 [6 tips to make your website more accessible](https://uxdesign.cc/6-tips-to-make-your-website-more-accessible-f412ab410122)  
 [How to Use the WAVE Web Accessibility Evaluation Tool](https://jagrenier.medium.com/how-to-use-the-wave-web-accessibility-evaluation-tool-9df8588a3d16)    
 [Why, How, and When to Use Semantic HTML and ARIA](https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/) 
+
+## Design
+
+[Bacon Ipsum](https://baconipsum.com/)
+[Coolors](https://coolors.co/palettes/trending)
+[Font Awesome](https://fontawesome.com/)
+[Google Fonts](https://fonts.google.com/)
+[HTML Color Codes](https://htmlcolorcodes.com/)
+[Image Color Picker](https://imagecolorpicker.com/)
+[Upsplash](https://unsplash.com/)

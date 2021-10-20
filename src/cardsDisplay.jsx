@@ -1,20 +1,21 @@
 import React from "react";
 import "./cardsDisplay.scss";
 
-import ExampleCard from './cards/exampleCard/exampleCard';
-import KayleesCard from './cards/kayleesCard/kayleesCard'
+import ExampleCard from "./cards/exampleCard/exampleCard";
+import KayleesCard from "./cards/kayleesCard/kayleesCard";
 import IndigoCard from "./cards/indigoCard/indigoCard";
-import KristiCard from './cards/kristiCard/kristiCard';
-import ChayCard from './cards/ChayCard/ChayCard'
+import KristiCard from "./cards/kristiCard/kristiCard";
+import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
 import JennDiazCard from "./cards/jennDiazCard/jennDiazCard";
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
-import BriesCard from './cards/briesCard/briesCard';
-import PalesaCard from './cards/PalesaCard/PalesaCard';
-import NoonCard from './cards/noonCard/NoonCard';
-import RhondaCard from './cards/rhondaCard/rhondaCard';
-import DomsCard from './cards/domsCard/domsCard';
+import BriesCard from "./cards/briesCard/briesCard";
+import PalesaCard from "./cards/PalesaCard/PalesaCard";
+import NoonCard from "./cards/noonCard/NoonCard";
+import RhondaCard from "./cards/rhondaCard/rhondaCard";
+import DomsCard from "./cards/domsCard/domsCard";
+import JordanCard from "./cards/mjordanCard/jordanCard";
 
 function CardsDisplay(props) {
   return (
@@ -49,12 +50,22 @@ function CardsDisplay(props) {
       <div>
         <PalesaCard />
       </div>
-      <div><BriesCard /></div>
-      <div><DomsCard/></div>
-      <div><NoonCard/></div>
-      <div><RhondaCard/></div>
+      <div>
+        <BriesCard />
+      </div>
+      <div>
+        <DomsCard />
+      </div>
+      <div>
+        <JordanCard />
+      </div>
+      <div>
+        <NoonCard />
+      </div>
+      <div>
+        <RhondaCard />
+      </div>
     </div>
-
   );
 }
 

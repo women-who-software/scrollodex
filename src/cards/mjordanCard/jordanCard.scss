@@ -1,0 +1,61 @@
+.mj-card-container {
+  // grid-template-columns: 120px 1fr;
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 159, 159, 1),
+    rgba(251, 198, 133, 1),
+    rgba(251, 241, 121, 1),
+    rgba(169, 252, 126, 1),
+    rgba(130, 240, 200, 1),
+    rgba(149, 202, 228, 1),
+    rgba(168, 168, 216, 1),
+    rgba(203, 166, 200, 1),
+    rgba(255, 159, 159, 1)
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.mj-card-container .card .card-details {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.mj-card-container p,
+.mj-card-container h3 {
+  background: white;
+  padding: 0 4px;
+  margin: 0;
+}
+
+.mj-card-container h3 {
+  border-bottom: 2px solid rgb(22, 134, 190);
+}
+
+.mj-card-container p span {
+  font-weight: bold;
+}
+
+.mj-card-container a {
+  color: black;
+}
+
+.mj-card-container a:hover {
+  text-decoration: none;
+  color: rgb(22, 134, 190);
+}

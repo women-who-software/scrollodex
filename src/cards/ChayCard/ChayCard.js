@@ -17,7 +17,7 @@ function ChayCard() {
             <p>Front-End Web Developer</p>
             <p>chayanit.chaisri@gmail.com</p>
             {/* <p>www.linkedin.com/in/chayanit-chaisri</p> */}
-            <button><a href="www.linkedin.com/in/chayanit-chaisri">LinkedIn</a></button>
+            <button><a  target="_blank"   rel="noreferrer" href="https://www.linkedin.com/in/chayanit-chaisri">LinkedIn</a></button>
       </div>
 
     </div>

@@ -13,9 +13,9 @@ function ExampleCard() {
         <div className="card">
             <h3>Rachael Thomas</h3>
             <p>Front-End Web Developer</p>
-            <a href="www.github.com/rachael-t">GitHub</a>
+            <a href="https://www.github.com/rachael-t">GitHub</a>
             <br></br>
-            <a href="www.linkedin.com/in/rachael-lenss-thomas">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/rachael-lenss-thomas">LinkedIn</a>
       </div>
 
     </div>

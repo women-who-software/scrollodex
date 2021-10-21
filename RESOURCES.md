@@ -3,6 +3,7 @@
 ## Beginner Friendly Repositories
 
 [Women Who Code Hacktoberfest 2021](https://github.com/WomenWhoCode/hacktoberfest21): The repo contains the code for the website for resources and projects worked on by communities within WWC
+[First Timers Only](https://www.firsttimersonly.com/): A resource for beginning contributors that includes links to open source learning resources and links to beginner-friendly projects.
 
 
 ## Git
@@ -28,4 +29,4 @@
 [HTML Color Codes](https://htmlcolorcodes.com/)
 [Image Color Picker](https://imagecolorpicker.com/)
 [Upsplash](https://unsplash.com/)
-
+[Pexels](https://www.pexels.com/)

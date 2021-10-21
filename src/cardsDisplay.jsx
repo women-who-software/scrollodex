@@ -4,6 +4,7 @@ import Card from "./Components/Card";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";
+//import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from "./cards/kristiCard/kristiCard";
 import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
@@ -14,6 +15,8 @@ import BriesCard from "./cards/briesCard/briesCard";
 import PalesaCard from "./cards/PalesaCard/PalesaCard";
 import NoonCard from "./cards/noonCard/NoonCard";
 import RhondaCard from "./cards/rhondaCard/rhondaCard";
+import DomsCard from "./cards/domsCard/domsCard";
+import JordanCard from "./cards/mjordanCard/jordanCard";
 
 function CardsDisplay(props) {
   const contributors = props.cardsDatabase;
@@ -53,19 +56,17 @@ function CardsDisplay(props) {
         <BriesCard />
       </div>
       <div>
+        <DomsCard />
+      </div>
+      <div>
+        <JordanCard />
+      </div>
+      <div>
         <NoonCard />
       </div>
       <div>
         <RhondaCard />
       </div>
-
-      {Object.entries(contributors).map((contributor) => {
-        return (
-          <div>
-            <Card key={contributor[0]} {...contributor[1]} />
-          </div>
-        );
-      })}
     </div>
   );
 }

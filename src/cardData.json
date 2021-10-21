@@ -22,6 +22,20 @@
         "linkedin": "http://www.linkedin.com/in/rhondakremer",
         "github": "https://github.com/rhondakremer"
       }
+    },
+    "jordan": {
+      "component": "JordanCard",
+      "data": {
+        "name": "Jordan Levine",
+        "title": "CSS Engineer",
+        "company": "Universe",
+        "company-url": "https:onuniverse.com",
+        "email": "hi@mjordan.codes",
+        "sites": {
+          "main": "https://mjordan.codes",
+          "link-list": "https://mjordan.onuniverse.com"
+        }
+      }
     }
   }
 }

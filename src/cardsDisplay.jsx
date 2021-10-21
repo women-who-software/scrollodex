@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import "./cardsDisplay.scss";
 import { CardContext } from "./App";
 import Card from "./Components/Card";
@@ -24,6 +24,7 @@ import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 function CardsDisplay() {
   const contributors = useContext(CardContext);
 
+  // Set up cards with all the different ways cards are created
   const cards = [
     { name: "Kaylee", component: <KayleesCard /> },
     { name: "Kristi", component: <KristiCard /> },
@@ -64,7 +65,17 @@ function CardsDisplay() {
     }
   });
 
-  let sortedCards = cards.sort((a, b) => {
+  // Set up different sorting methods for the cards
+  let initialCards = cards;
+  let sortedCards = [];
+  let randomCards = [];
+
+  for (let i = 0; i < cards.length; i++) {
+    sortedCards.push(cards[i]);
+    randomCards.push(cards[i]);
+  }
+
+  sortedCards.sort((a, b) => {
     if (a.name > b.name) {
       return 1;
     } else {
@@ -72,12 +83,31 @@ function CardsDisplay() {
     }
   });
 
+  const randomizeCards = () => {
+    randomCards.sort(() => {
+      return Math.random() - 0.5;
+    });
+
+    setDisplayedCards(randomCards);
+  };
+
+  const [displayedCards, setDisplayedCards] = useState(initialCards);
+
   return (
-    <div className="cardholder">
-      {sortedCards.map((card, i) => {
-        return <div name={card.name} children={card.component} />;
-      })}
-    </div>
+    <>
+      <div className="sort-by-bar">
+        <button onClick={() => setDisplayedCards(initialCards)}>Initial</button>
+        <button onClick={() => setDisplayedCards(sortedCards)}>
+          Alphabetical
+        </button>
+        <button onClick={() => randomizeCards()}>Randomize</button>
+      </div>
+      <div className="cardholder">
+        {displayedCards.map((card, i) => {
+          return <div name={card.name} children={card.component} key={i} />;
+        })}
+      </div>
+    </>
   );
 }
 

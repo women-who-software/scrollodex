@@ -4,7 +4,7 @@ import CardsDisplay from "./cardsDisplay";
 //import BootstrapDisplay from './BootstrapDisplay';
 import "./index.css";
 import db from "./cardData.json";
-import cardDb from "./Components/cardComponentData.json";
+// import cardDb from "./Components/cardComponentData.json";
 
 // Create some context based on the data models stored in the cardData.json
 // file. This can be imported and used in any component below. This will allow
@@ -16,7 +16,7 @@ function App() {
   return (
     <CardContext.Provider value={db.cardsDatabase}>
       <div>
-        <CardsDisplay {...cardDb} />
+        <CardsDisplay />
       </div>
     </CardContext.Provider>
   );

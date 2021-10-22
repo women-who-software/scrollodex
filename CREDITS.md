@@ -10,3 +10,4 @@
 [Supamas Sirichotiyakul](https://github.com/supamasS), Software Engineer from Gilbert, AZ & New Hartford, NY  
 [Dominika Wilk Avila](https://github.com/domsbytes), Sr Software Engineer from Phoenix, AZ
 [Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO
+[Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO

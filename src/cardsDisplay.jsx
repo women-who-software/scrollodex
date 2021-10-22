@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./cardsDisplay.scss";
+import { CardContext } from "./App";
 import Card from "./Components/Card";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
@@ -18,9 +19,8 @@ import RhondaCard from "./cards/rhondaCard/rhondaCard";
 import DomsCard from "./cards/domsCard/domsCard";
 import JordanCard from "./cards/mjordanCard/jordanCard";
 
-function CardsDisplay(props) {
-  const contributors = props.cardsDatabase;
-
+function CardsDisplay() {
+  const contributors = useContext(CardContext);
   return (
     <div className="cardholder">
       <div>
@@ -44,11 +44,9 @@ function CardsDisplay(props) {
       <div>
         <ChumleyCard />
       </div>
-
       <div>
         <RachaelCard />
       </div>
-
       <div>
         <PalesaCard />
       </div>
@@ -67,6 +65,20 @@ function CardsDisplay(props) {
       <div>
         <RhondaCard />
       </div>
+
+      {Object.keys(contributors).map((contributor) => {
+        if (
+          contributor !== "brielle" &&
+          contributor !== "jordan" &&
+          contributor !== "rhonda"
+        ) {
+          return (
+            <div>
+              <Card {...contributors[contributor]} />
+            </div>
+          );
+        }
+      })}
     </div>
   );
 }

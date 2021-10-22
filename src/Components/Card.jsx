@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Card.scss";
+import CardsDisplay from "../cardsDisplay";
+import { CardContext } from "../App";
 
 function Card(props) {
   // add file path to image in JSON and use as a filter
-  const filter = props.data.image;
+  const filter = props.image;
   const cache = {};
 
   // use function to import static file paths
@@ -21,7 +23,7 @@ function Card(props) {
   );
 
   return (
-    <div className={`cardContainer ${props.component}`}>
+    <div className={`cardContainer ${props.className}`}>
       <div className="card">
         <img
           className="imageContainer"
@@ -46,7 +48,7 @@ function Card(props) {
           }
           <div>
             {
-              // Do the same thing here for website values
+              // Do the same thing here for website propss
               Object.keys(props.data.sites || {}).map((label, idx) => (
                 <a key={`s-${idx}`} href={props.data.sites[label]}>
                   {label !== "work"

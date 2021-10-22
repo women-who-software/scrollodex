@@ -21,6 +21,7 @@ import JordanCard from "./cards/mjordanCard/jordanCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
+
   return (
     <div className="cardholder">
       <div>
@@ -74,9 +75,14 @@ function CardsDisplay() {
         ) {
           return (
             <div>
-              <Card {...contributors[contributor]} />
+              <Card
+                key={contributors[contributor].component}
+                {...contributors[contributor]}
+              />
             </div>
           );
+        } else {
+          return null;
         }
       })}
     </div>

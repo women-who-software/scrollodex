@@ -1,9 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./Card.scss";
-import CardsDisplay from "../cardsDisplay";
-import { CardContext } from "../App";
 
 function Card(props) {
+  console.log("here");
   // add file path to image in JSON and use as a filter
   const filter = props.image;
   const cache = {};

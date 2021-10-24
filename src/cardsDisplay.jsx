@@ -16,6 +16,7 @@ import NoonCard from "./cards/noonCard/NoonCard";
 import RhondaCard from "./cards/rhondaCard/rhondaCard";
 import DomsCard from "./cards/domsCard/domsCard";
 import JordanCard from "./cards/mjordanCard/jordanCard";
+import RonisCard from "./cards/ronisCard/roniCard";
 
 function CardsDisplay(props) {
   return (
@@ -64,6 +65,9 @@ function CardsDisplay(props) {
       </div>
       <div>
         <RhondaCard />
+      </div>
+      <div>
+        <RonisCard />
       </div>
     </div>
   );

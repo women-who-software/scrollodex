@@ -18,6 +18,7 @@ import NoonCard from "./cards/noonCard/NoonCard";
 import RhondaCard from "./cards/rhondaCard/rhondaCard";
 import DomsCard from "./cards/domsCard/domsCard";
 import JordanCard from "./cards/mjordanCard/jordanCard";
+import RonisCard from "./cards/ronisCard/roniCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
@@ -66,13 +67,16 @@ function CardsDisplay() {
       <div>
         <RhondaCard />
       </div>
+     <div>
+        <RonisCard />
+      </div>
 
       {Object.keys(contributors).map((contributor) => {
         if (
           contributor !== "brielle" &&
           contributor !== "jordan" &&
           contributor !== "rhonda"
-        ) {
+          ) {
           return (
             <div>
               <Card
@@ -85,6 +89,7 @@ function CardsDisplay() {
           return null;
         }
       })}
+
     </div>
   );
 }

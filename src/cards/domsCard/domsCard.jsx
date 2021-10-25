@@ -5,7 +5,7 @@ import image from "./dom_photo1.png";
 function DomsCard() {
   return (
     <div className="domCardContainer">
-      <div className="card">
+      <div className="image">
         <img className="imageContainer" src={image} alt="dom's headshot" />
       </div>
 

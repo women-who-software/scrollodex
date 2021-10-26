@@ -1,4 +1,3 @@
-
 .cardContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -21,4 +20,50 @@
     height: auto;
     margin: auto;
     border-radius: 50%;
+}
+
+.roni-container {
+    background: #006675;
+    // background: linear-gradient(65deg, rgba(96,17,191,1) 0%, rgba(70,130,180,1) 45%, rgba(255,166,0,1) 100%);
+}
+
+.roniImg {
+    width: 150px;
+    height: 150px; 
+}
+
+.roni-card {
+    color:#334553;
+    background-color: hsl(75 25 97);
+    padding: .5rem;
+    margin: 0 .5rem;
+}
+.roni-card h3 {
+    text-decoration: underline rgb(167, 138, 0);
+    margin-bottom: .5rem;
+}
+
+.email {
+    
+    color:#334553;
+}
+.roni-card p {
+    margin:0;
+
+}
+.links a {
+    background-color: #006675;
+    color: white;
+    padding: .5rem;
+    display: inline-flex;
+    margin: 1rem .5rem;
+    border-radius: 10%;
+    box-shadow: 3px 5px 10px grey;
+    transition: background-color 300ms ease-in-out;
+}
+.links a:hover,
+.links a:focus {
+    background-color: rgb(167, 138, 0);
+    color:#006675;
+    font-size: 1.5rem;
 }

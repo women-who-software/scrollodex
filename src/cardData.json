@@ -11,7 +11,8 @@
         "sites": {
           "work": "www.paypal.com"
         }
-      }
+      },
+      "image": "../brieCard/skinnyBrie.jpg"
     },
     "rhonda": {
       "component": "RhondaCard",
@@ -21,7 +22,8 @@
         "email": "rhondakremer@gmail.com",
         "linkedin": "http://www.linkedin.com/in/rhondakremer",
         "github": "https://github.com/rhondakremer"
-      }
+      },
+      "image": ""
     },
     "jordan": {
       "component": "JordanCard",
@@ -35,7 +37,22 @@
           "main": "https://mjordan.codes",
           "link-list": "https://mjordan.onuniverse.com"
         }
-      }
+      },
+      "image": ""
+    },
+    "indigo": {
+      "component": "indigoCard",
+      "className": "indigo",
+      "data": {
+        "name": "Indigo Starr",
+        "title": "Full-Stack Developer",
+        "email": "Indigojstarr@gmail.com",
+        "sites": {
+          "LinkedIn": "https://www.linkedin.com/in/indigostarr/",
+          "Github": "http://indigostarr.github.io/about"
+        }
+      },
+      "image": "./indigostarr.png"
     }
   }
 }

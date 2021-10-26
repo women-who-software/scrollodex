@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./cardsDisplay.scss";
+import { CardContext } from "./App";
+import Card from "./Components/Card";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";
-import IndigoCard from "./cards/indigoCard/indigoCard";
+//import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from "./cards/kristiCard/kristiCard";
 import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
@@ -18,7 +20,9 @@ import DomsCard from "./cards/domsCard/domsCard";
 import JordanCard from "./cards/mjordanCard/jordanCard";
 import RonisCard from "./cards/ronisCard/roniCard";
 
-function CardsDisplay(props) {
+function CardsDisplay() {
+  const contributors = useContext(CardContext);
+
   return (
     <div className="cardholder">
       <div>
@@ -26,9 +30,6 @@ function CardsDisplay(props) {
       </div>
       <div>
         <JennDiazCard />
-      </div>
-      <div>
-        <IndigoCard />
       </div>
       <div>
         <KristiCard />
@@ -66,9 +67,29 @@ function CardsDisplay(props) {
       <div>
         <RhondaCard />
       </div>
-      <div>
+     <div>
         <RonisCard />
       </div>
+
+      {Object.keys(contributors).map((contributor) => {
+        if (
+          contributor !== "brielle" &&
+          contributor !== "jordan" &&
+          contributor !== "rhonda"
+          ) {
+          return (
+            <div>
+              <Card
+                key={contributors[contributor].component}
+                {...contributors[contributor]}
+              />
+            </div>
+          );
+        } else {
+          return null;
+        }
+      })}
+
     </div>
   );
 }

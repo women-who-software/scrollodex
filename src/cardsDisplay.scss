@@ -1,40 +1,56 @@
+$card-min-width: 335px;
+$card-gap: 15px;
+$break-1: ($card-min-width * 2 + $card-gap * 3);
+$break-2: ($card-min-width * 3 + $card-gap * 4);
+$break-3: ($card-min-width * 4 + $card-gap * 5);
+
 .cardholder {
     display: grid;
     grid: auto-flow / 2fr 2fr 2fr 2fr;
+    row-gap: $card-gap;
+    column-gap: $card-gap;
+    margin: $card-gap;
   }
-  
-  .cardholder > div {
-    background-color: #b1b1b1;
-    width: 100%;
-    height: auto;
-    outline: 4px solid #ffffff;
+
+.cardholder > div {
+  background-color: rgba(177, 177, 177, 0.3);
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+  width: 100%;
+  min-width: $card-min-width;
+  height: auto;
+}
+
+.cardholder > div > div {
+  height: 100%;
+  padding: 15px;
+}
+
+@media (min-width: $break-3) {
+  .cardholder {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr 1fr;
   }
-  
-  @media (max-width: 1400px) {
-    .cardholder {
-      display: grid;
-      grid: auto-flow / 1fr 1fr 1fr 1fr;
-    }
+}
+
+@media (max-width: $break-3) {
+  .cardholder {
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
   }
-  
-  @media (max-width: 1200px) {
-    .cardholder {
-      display: grid;
-      grid: auto-flow / 1fr 1fr 1fr;
-    }
+}
+
+@media (max-width: $break-2) {
+  .cardholder {
+    display: grid;
+    grid: auto-flow / 1fr 1fr;
   }
-  
-  @media (max-width: 992px) {
-    .cardholder {
-      display: grid;
-      grid: auto-flow / 1fr 1fr;
-    }
+}
+
+@media (max-width: $break-1) {
+  .cardholder {
+    display: grid;
+    grid: auto-flow / 1fr;
   }
-  
-  @media (max-width: 768px) {
-    .cardholder {
-      display: grid;
-      grid: auto-flow / 1fr;
-    }
-  }
-  
+}  
+

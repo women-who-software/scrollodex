@@ -1,0 +1,58 @@
+{
+  "cardsDatabase": {
+    "brielle": {
+      "component": "BriesCard",
+      "data": {
+        "name": "Brielle Harrison",
+        "title": "Principal Software Engineering Manager at PayPal",
+        "emails": {
+          "work": "brielle@paypal.com"
+        },
+        "sites": {
+          "work": "www.paypal.com"
+        }
+      },
+      "image": "../brieCard/skinnyBrie.jpg"
+    },
+    "rhonda": {
+      "component": "RhondaCard",
+      "data": {
+        "name": "Rhonda Kremer",
+        "title": "Software Engineer @ Invitae",
+        "email": "rhondakremer@gmail.com",
+        "linkedin": "http://www.linkedin.com/in/rhondakremer",
+        "github": "https://github.com/rhondakremer"
+      },
+      "image": ""
+    },
+    "jordan": {
+      "component": "JordanCard",
+      "data": {
+        "name": "Jordan Levine",
+        "title": "CSS Engineer",
+        "company": "Universe",
+        "company-url": "https:onuniverse.com",
+        "email": "hi@mjordan.codes",
+        "sites": {
+          "main": "https://mjordan.codes",
+          "link-list": "https://mjordan.onuniverse.com"
+        }
+      },
+      "image": ""
+    },
+    "indigo": {
+      "component": "indigoCard",
+      "className": "indigo",
+      "data": {
+        "name": "Indigo Starr",
+        "title": "Full-Stack Developer",
+        "email": "Indigojstarr@gmail.com",
+        "sites": {
+          "LinkedIn": "https://www.linkedin.com/in/indigostarr/",
+          "Github": "http://indigostarr.github.io/about"
+        }
+      },
+      "image": "./indigostarr.png"
+    }
+  }
+}

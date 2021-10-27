@@ -1,9 +1,12 @@
+[![GitHub License](https://img.shields.io/github/license/wwcodecolorado/scrollodex)](https://github.com/wwcodecolorado/scrollodex/blob/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9b72a143-93e6-4ae2-a065-5b72ca57b676/deploy-status)](https://app.netlify.com/sites/scrollodex/deploys)
+
 # Scrollodex
 
-Welcome! Scrollodex is an open-source project created and maintained by members of the Women Who Code Boulder/Denver in order to bring the community together, build something awesome, and spend some time hacking! Based on the classic rolodex or a business card pin wall, it aims to be a fun place for Women Who Code members to add and display a business card.
+Welcome! Scrollodex is an open-source project created and maintained by members of the Women Who Code Boulder/Denver in order to bring the community together, build something awesome, and spend some time hacking! Based on the classic rolodex or a business card pin wall, Scrollodex aims to be a fun place for Women Who Code members to add and display a business card.
 
 ## Contributing
-This repo will begin as a Hacktoberfest project so it is NOT ready for contributions yet. Please attend our [Meetup](https://www.meetup.com/Women-Who-Code-Boulder-Denver/events/281109143/) on Oct 13 before contributing. [See our full contribution guidelines.](CONTRIBUTING.md)
+Our project is ready to accept PRs! We launched it on Oct 13 in our [Meetup](https://www.meetup.com/Women-Who-Code-Boulder-Denver/events/281109143/). [See our full contribution guidelines.](CONTRIBUTING.md) Check out our [issues](https://github.com/wwcodecolorado/scrollodex/issues) page to see what you can work on , we recommend issue #4!
 
 To get started, read and follow along with our [How To 101: The Non-Scary Guide](HOWTO101.md)!
 

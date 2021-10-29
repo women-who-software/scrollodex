@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "./cardsDisplay.scss";
 import { CardContext } from "./App";
 import Card from "./Components/Card";
-
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";
 //import IndigoCard from "./cards/indigoCard/indigoCard";
@@ -19,6 +18,7 @@ import RhondaCard from "./cards/rhondaCard/rhondaCard";
 import DomsCard from "./cards/domsCard/domsCard";
 import JordanCard from "./cards/mjordanCard/jordanCard";
 import RonisCard from "./cards/ronisCard/roniCard";
+import ParastouCard from "./cards/parastouCard/parastouCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
@@ -67,16 +67,19 @@ function CardsDisplay() {
       <div>
         <RhondaCard />
       </div>
-     <div>
+      <div>
         <RonisCard />
       </div>
-
+      <div>
+        <ParastouCard />
+      </div>
       {Object.keys(contributors).map((contributor) => {
         if (
           contributor !== "brielle" &&
           contributor !== "jordan" &&
-          contributor !== "rhonda"
-          ) {
+          contributor !== "rhonda" &&
+          contributor !== "parastou"
+        ) {
           return (
             <div>
               <Card

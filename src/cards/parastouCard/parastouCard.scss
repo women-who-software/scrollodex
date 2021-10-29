@@ -1,0 +1,35 @@
+.parastou-cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    background-image: linear-gradient(90deg, rgb(170, 8, 245), hsl(293, 100%, 75%));
+}
+.parastou-card {
+    margin: auto;
+    text-align: center;
+    font: bold 12px, sans-serif;
+    color: rgb(250, 250, 250);
+}
+.parastou-title {
+    margin: 10px;
+}
+.parastou-imageContainer {
+    width: 120px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px 12px;
+    border: 2px solid #a8fc83;
+}
+.parastou-link {
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    padding: 8px 10px;
+    margin: 0 5px 5px;
+    border: none;
+    border-radius: 9px;
+    background: #4e9caf;
+    &:hover {
+        text-decoration: none;
+    }
+}

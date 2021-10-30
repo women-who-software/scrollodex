@@ -1,0 +1,27 @@
+.lovelaceCardContainer {
+  background-image: linear-gradient(315deg, #ffffff 0%, #ecdbc9 34%);
+  display: flex;
+  height: 100%;
+  padding: 2rem 1rem;
+}
+
+.lovelaceCardContainer .card img {
+  box-shadow: -5px 3px 0 5px #e2a860;
+}
+
+.name-h3 {
+  color: rgb(176, 68, 0);
+}
+
+.social-link {
+  background-color: #E2A860;
+  margin-right: 5px;
+  color: #000;
+  border: solid 1px gray;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.text-blue {
+  color: rgb(29, 50, 89);
+}

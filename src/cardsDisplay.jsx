@@ -20,6 +20,7 @@ import JordanCard from "./cards/mjordanCard/jordanCard";
 import RonisCard from "./cards/ronisCard/roniCard";
 import ParastouCard from "./cards/parastouCard/parastouCard";
 import AudreaCard from "./cards/audreasCard/audreaCard"
+import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
@@ -73,6 +74,9 @@ function CardsDisplay() {
       </div>
       <div>
         <AudreaCard />
+      </div>
+      <div>
+        <LovelaceCard />
       </div>
       {Object.keys(contributors).map((contributor) => {
         if (

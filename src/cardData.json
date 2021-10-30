@@ -53,6 +53,16 @@
         }
       },
       "image": "./indigostarr.png"
+    },
+    "parastou": {
+      "component": "ParastouCard",
+      "data": {
+        "name": "Parastou Safajou",
+        "title": "Software Engineer",
+        "linkedin": "https://www.linkedin.com/in/parastousafajou/",
+        "github": "https://github.com/Parastou63"
+      },
+      "image": "../parastouCard/parastouHeadshot.JPG"
     }
   }
 }

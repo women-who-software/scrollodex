@@ -12,3 +12,4 @@
 [Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO  
 [Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO  
 [Parastou Safajou](https://github.com/Parastou63), Software Engineer from Mountain View, CA  
+[Audrea Cook](https://github.com/audthecodewitch), Software Engineer from Colorado Springs, CO

@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 import "./cardsDisplay.scss";
 import { CardContext } from "./App";
 import Card from "./Components/Card";
-import ExampleCard from "./cards/exampleCard/exampleCard";
+
+// import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";
-//import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from "./cards/kristiCard/kristiCard";
 import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
@@ -25,9 +25,6 @@ function CardsDisplay() {
 
   return (
     <div className="cardholder">
-      <div>
-        <ExampleCard />
-      </div>
       <div>
         <JennDiazCard />
       </div>

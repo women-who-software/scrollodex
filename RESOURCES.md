@@ -22,11 +22,18 @@
 
 ## Design
 
-[Bacon Ipsum](https://baconipsum.com/)
-[Coolors](https://coolors.co/palettes/trending)
-[Font Awesome](https://fontawesome.com/)
-[Google Fonts](https://fonts.google.com/)
-[HTML Color Codes](https://htmlcolorcodes.com/)
-[Image Color Picker](https://imagecolorpicker.com/)
-[Upsplash](https://unsplash.com/)
-[Pexels](https://www.pexels.com/)
+[Bacon Ipsum](https://baconipsum.com/)   
+[Coolors](https://coolors.co/palettes/trending)   
+[Font Awesome](https://fontawesome.com/)   
+[Google Fonts](https://fonts.google.com/)   
+[HTML Color Codes](https://htmlcolorcodes.com/)   
+[Image Color Picker](https://imagecolorpicker.com/)   
+[Upsplash](https://unsplash.com/)   
+[Pexels](https://www.pexels.com/)   
+
+
+## React Tutorial
+
+[React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)   
+[React JS Crash Course 2021 - Traversy Media](https://youtu.be/w7ejDZ8SWv8)   
+[React JS Course for Beginners - 2021 Tutorial](https://youtu.be/nTeuhbP7wdE)

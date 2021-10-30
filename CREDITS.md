@@ -11,3 +11,4 @@
 [Dominika Wilk Avila](https://github.com/domsbytes), Sr Software Engineer from Phoenix, AZ
 [Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO
 [Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO
+[Maria Bogomaz](https://github.com/mariajcb), Frontend Engineer from Longmont, CO

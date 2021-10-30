@@ -2,7 +2,6 @@ import React from "react";
 import "./Card.scss";
 
 function Card(props) {
-  console.log("here");
   // add file path to image in JSON and use as a filter
   const filter = props.image;
   const cache = {};

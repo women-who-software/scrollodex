@@ -5,7 +5,6 @@ import Card from "./Components/Card";
 
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import KayleesCard from "./cards/kayleesCard/kayleesCard";
-//import IndigoCard from "./cards/indigoCard/indigoCard";
 import KristiCard from "./cards/kristiCard/kristiCard";
 import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
@@ -67,7 +66,7 @@ function CardsDisplay() {
       <div>
         <RhondaCard />
       </div>
-     <div>
+      <div>
         <RonisCard />
       </div>
 
@@ -76,20 +75,16 @@ function CardsDisplay() {
           contributor !== "brielle" &&
           contributor !== "jordan" &&
           contributor !== "rhonda"
-          ) {
+        ) {
           return (
-            <div>
-              <Card
-                key={contributors[contributor].component}
-                {...contributors[contributor]}
-              />
+            <div key={contributors[contributor].component}>
+              <Card {...contributors[contributor]} />
             </div>
           );
         } else {
           return null;
         }
       })}
-
     </div>
   );
 }

@@ -12,3 +12,5 @@
 [Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO
 [Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO
 [Maria Bogomaz](https://github.com/mariajcb), Frontend Engineer from Longmont, CO
+[Parastou Safajou](https://github.com/Parastou63), Software Engineer from Mountain View, CA 
+

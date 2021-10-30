@@ -82,18 +82,14 @@ function CardsDisplay() {
           contributor !== "parastou"
         ) {
           return (
-            <div>
-              <Card
-                key={contributors[contributor].component}
-                {...contributors[contributor]}
-              />
+            <div key={contributors[contributor].component}>
+              <Card {...contributors[contributor]} />
             </div>
           );
         } else {
           return null;
         }
       })}
-
     </div>
   );
 }

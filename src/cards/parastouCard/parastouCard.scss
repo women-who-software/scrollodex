@@ -13,6 +13,10 @@
 }
 .parastou-title {
     margin: 10px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-name: slide-in;
+    animation-timing-function: ease;
 }
 .parastou-imageContainer {
     width: 120px;
@@ -31,5 +35,19 @@
     background: #4e9caf;
     &:hover {
         text-decoration: none;
+    }
+}
+@keyframes slide-in {
+    0% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-3%);
+    }
+    50% {
+        transform: translateX(3%);
+    }
+    100% {
+        transform: translateX(0%);
     }
 }

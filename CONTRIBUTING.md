@@ -21,7 +21,7 @@ If you have questions about an issue leave it as a comment in the issue.
 
 ### Pull Requests
 
-1. Fork the repo and create your branch from `master`.
+1. Fork the repo and create your branch from `main`.
 2. If you've added code, please make sure it is well tested and correctly formatted.
 3. Please make sure to update all corresponding documentation.
 4. Open the pull request!

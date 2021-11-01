@@ -1,6 +1,89 @@
-.chumley {
-  background: #008080;
+.cardContainer {
+  &.cardPresentation {
+    position: relative;
+  }
+}
+
+.cardInner {
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  width: 100%;
+
+  &:hover .cardContentFront {
+    transform: rotateY(-180deg);
+  }
+
+  &:hover .cardContentBack {
+    transform: rotateY(0deg);
+  }
+}
+
+.cardContentFront {
+  align-items: center;
+  backface-visibility: hidden;
+  background-image: url(mountains.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
-  font-size: 1.1em;
+  display: flex;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  transform: rotateY(0deg);
+  transition: .5s;
+  width: 100%;
+
+  h3 {
+    margin: 0;
+    letter-spacing: -1px;
+  }
+
+  .imageContainer {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.cardContentBack {
+  align-items: center;
+  backface-visibility: hidden;
+  background: rgb(4, 134, 106);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 0;
+  padding: 1.5em 1em 1em;
+  position: absolute;
+  top: 0;
+  transform: rotateY(180deg);
+  transition: .5s;
+  width: 100%;
+
+  h3 {
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+
+  .email,
+  .linkedin {
+    background: #fff;
+    border-radius: 10px;
+    color: #000;
+    display: block;
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 10px 15px;
+    width: auto;
+  }
 }

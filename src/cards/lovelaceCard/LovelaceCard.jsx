@@ -8,7 +8,7 @@ function LovelaceCard() {
       <div className="card">
         <img className="imageContainer" src={image} alt="lovelace-profile"/>
       </div>
-      <div className="card-info">
+      <div className="card card-info">
         <h3 className="name-h3">Ada Lovelace</h3>
         <p className="text-blue">The first computer programmer</p>
         <a

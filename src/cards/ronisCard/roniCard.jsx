@@ -2,8 +2,6 @@ import React from 'react';
 import './roniCard.scss';
 import Roni from './roni-headshot.png';
 
-//
-
 function ExampleCard() {
   return (
     <div className="cardContainer roni-container">

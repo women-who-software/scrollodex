@@ -96,11 +96,11 @@ function CardsDisplay() {
   return (
     <>
       <div className="sort-by-bar">
-        <button onClick={() => setDisplayedCards(initialCards)}>Initial</button>
-        <button onClick={() => setDisplayedCards(sortedCards)}>
+        <button className="btn btn-main" onClick={() => setDisplayedCards(initialCards)}>Initial</button>
+        <button className="btn btn-main" onClick={() => setDisplayedCards(sortedCards)}>
           Alphabetical
         </button>
-        <button onClick={() => randomizeCards()}>Randomize</button>
+        <button className="btn btn-main" onClick={() => randomizeCards()}>Randomize</button>
       </div>
       <div className="cardholder">
         {displayedCards.map((card, i) => {

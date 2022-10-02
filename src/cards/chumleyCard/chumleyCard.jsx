@@ -2,17 +2,15 @@ import React from 'react';
 import './chumleyCard.scss';
 import image from './chumley_headshot.png';
 
-//
-
 function ChumleyCard() {
   return (
     <div className="cardContainer cardPresentation">
 
-      <div className="card cardInner">
+      <div className="cardInner">
         <div className="cardContent cardContentFront">
           <img className="imageContainer" src={image} alt="Rebecca Chumley" />
 
-          <div className="card">
+          <div>
             <h3>Rebecca Chumley</h3>
             <p>Front-End Web Developer</p>
           </div>

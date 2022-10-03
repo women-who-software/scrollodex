@@ -1,6 +1,6 @@
 import React from 'react';
 import './kristiCard.scss';
-import image from './kristi_headshot.png';
+import image from './kristi_headshot.jpeg';
 
 //
 

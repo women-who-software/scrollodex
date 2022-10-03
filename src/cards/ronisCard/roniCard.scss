@@ -1,21 +1,7 @@
-.cardContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    align-items: center;
-}
-.card{
-    margin: auto;
-    //padding: 1rem 1rem 1rem 1rem;
-    //align-items: right;
-    text-align: center;
-    //border: 2px solid white;
-}
 .image {
     background-image: url(./roni-headshot.png);
   }
 .imageContainer{
-    //align-items: left;
     width: 120px;
     height: auto;
     margin: auto;
@@ -24,7 +10,6 @@
 
 .roni-container {
     background: #006675;
-    // background: linear-gradient(65deg, rgba(96,17,191,1) 0%, rgba(70,130,180,1) 45%, rgba(255,166,0,1) 100%);
 }
 
 .roniImg {
@@ -44,7 +29,6 @@
 }
 
 .email {
-    
     color:#334553;
 }
 .roni-card p {

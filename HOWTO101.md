@@ -31,7 +31,7 @@ Wonder what this whole `git` business is? Read up on it [here](https://www.freec
 
 Ensure you have these installed on your system:
 
-- Node. You can check by typing `node -v` into your terminal. If you have it, it will give you the version that you have. If you don't have node installed, you can [get it here](https://nodejs.org/en/download/). (this will install `npm` 6.14.15 as well)
+- Node. You can check by typing `node -v` into your terminal. If you have it, it will give you the version that you have. If you don't have node installed, you can [get it here](https://nodejs.org/en/download/). (this will install `npm` 8.15.0 as well)
 - Yarn. Check if you have yarn installed by typing `yarn -v`. If it's not found, install it with `npm install --global yarn`. More info on that [here](https://yarnpkg.com/getting-started/install).
 
 Now you are ready to run the project:

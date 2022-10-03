@@ -2,11 +2,11 @@
     color: rgb(255, 255, 255);
 }
 
-button a {
+.card-chay button a {
     color: rgb(255, 255, 255);
 }
 
-button a:hover  {
+.card-chay button a:hover  {
     color: #1AAB8A;
 }
 
@@ -39,12 +39,11 @@ button a:hover  {
     border: 2px dashed rgb(255, 255, 255);
 }
 
-button{
+.card-chay button{
   background:#1AAB8A;
   color:#fff;
   border:none;
   position:relative;
-  height:30px;
   font-size:1.6em;
   padding:0 2em;
   cursor:pointer;

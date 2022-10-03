@@ -6,7 +6,7 @@ function ExampleCard() {
   return (
     <div className="cardContainer">
 
-        <div className="kayleesCard">
+        <div className="card kayleesCard">
             <img className="imageContainer" src={image} alt="kaylee headshot" />
         </div>
 

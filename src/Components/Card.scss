@@ -5,6 +5,28 @@
   align-items: center;
 }
 
+// Override bootstrap card
+// TODO: remove !importants
+.card {
+    --bs-card-bg: none !important;
+    --bs-card-spacer-y: 0 !important;
+    --bs-card-spacer-x: 0 !important;
+    --bs-card-title-spacer-y: 0 !important;
+    --bs-card-border-width: 0 !important;
+    --bs-card-border-color: none !important;
+    --bs-card-border-radius: 0 !important;
+    --bs-card-box-shadow: 0 !important;
+    --bs-card-inner-border-radius: 0 !important;
+    --bs-card-cap-padding-y: 0 !important;
+    --bs-card-cap-padding-x: 0 !important;
+    --bs-card-cap-bg: none !important;
+    --bs-card-cap-color: none !important;
+    --bs-card-color: none !important;
+    --bs-card-bg: none !important;
+    --bs-card-img-overlay-padding: 0 !important;
+    --bs-card-group-margin: 0 !important;
+}
+
 .card-details {
   position: relative;
   top: -0.5em;

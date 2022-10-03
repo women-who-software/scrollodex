@@ -1,4 +1,4 @@
-$card-min-width: 335px;
+$card-min-width: 375px;
 $card-gap: 15px;
 $break-1: ($card-min-width * 2 + $card-gap * 3);
 $break-2: ($card-min-width * 3 + $card-gap * 4);
@@ -10,7 +10,13 @@ $break-3: ($card-min-width * 4 + $card-gap * 5);
     row-gap: $card-gap;
     column-gap: $card-gap;
     margin: $card-gap;
-  }
+}
+
+.btn-main {
+  background-color: #1AAB8A !important;
+  margin: 0.5rem;
+  color: white !important
+}
 
 .cardholder > div {
   background-color: rgba(177, 177, 177, 0.3);

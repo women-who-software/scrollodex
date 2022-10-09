@@ -20,12 +20,14 @@ import RonisCard from "./cards/ronisCard/roniCard";
 import ParastouCard from "./cards/parastouCard/parastouCard";
 import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
+import ExampleCard from "./cards/exampleCard/exampleCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
 
   // Set up cards with all the different ways cards are created
   const cards = [
+    { name: "Example", component: <ExampleCard/> },
     { name: "Kaylee", component: <KayleesCard /> },
     { name: "Kristi", component: <KristiCard /> },
     { name: "Chay", component: <ChayCard /> },

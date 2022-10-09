@@ -17,7 +17,7 @@ function Card(props) {
 
   importAll(require.context("../public", false, /\.(png|jpe?g|svg)$/));
   const filteredImage = Object.entries(cache).map(
-    (module) => module[1].default
+    (module) => module[1]
   );
 
   return (

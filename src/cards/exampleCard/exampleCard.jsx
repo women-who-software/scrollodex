@@ -2,8 +2,6 @@ import React from 'react';
 import './exampleCard.scss';
 import image from './example_headshot.png';
 
-//
-
 function ExampleCard() {
   return (
     <div className="cardContainer">
@@ -13,10 +11,9 @@ function ExampleCard() {
         </div>
 
         <div className="card">
-            <h3>Jane Doe</h3>
-            <p>Front-End Web Developer</p>
-            <p>janedoe@example.com</p>
-            <p>www.janedoe.com</p>
+            <h3>Women Who Code</h3>
+            <p>Empower diverse women to excel in technology careers</p>
+            <p>www.womenwhocode.com</p>
       </div>
 
     </div>

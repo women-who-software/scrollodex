@@ -15,10 +15,10 @@ function jennDiazCard() {
             <h3 className="jdName">Jennifer Grenier Diaz</h3>
             <p className="jdText">Software Engineer</p>
             <p className="jdText">specializing in web accessibility and usability</p>
-        <div className="buttons">
-          <a className="button" href="https://github.com/jenndiaz">GitHub</a>
-          <a className="button" href="https://github.com/jenndiaz">LinkedIn</a>
-          <a className="button" href="https://github.com/jenndiaz">Blog</a>
+        <div className="jdButtons">
+          <a className="jdButton" href="https://github.com/jenndiaz">GitHub</a>
+          <a className="jdButton" href="https://github.com/jenndiaz">LinkedIn</a>
+          <a className="jdButton" href="https://github.com/jenndiaz">Blog</a>
         </div>
       </div>
 

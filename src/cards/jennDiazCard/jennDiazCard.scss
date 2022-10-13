@@ -8,9 +8,7 @@
     border-style: solid;
     border-width: 3px;
 }
-.card{
-    margin: auto;
-    align-items: right;
+.jdCard{
     text-align: center;
 }
 
@@ -26,21 +24,13 @@
     font-family: 'Merriweather', serif;
 }
 
-.imageContainer{
-    //align-items: left;
-    width: 120px;
-    height: auto;
-    margin: auto;
-    border-radius: 50%;
-}
-
-.buttons{
+.jdButtons{
     display: flex;
     justify-content: space-around;
     padding-top: 1em;
 }
 
-.button{
+.jdButton{
     background-color: #004643;
     color: white;
     padding: 0.25em 0.5em;
@@ -49,7 +39,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.button:hover{
+.jdButton:hover{
     color: white;
     background-color: #5F4B66;
 }

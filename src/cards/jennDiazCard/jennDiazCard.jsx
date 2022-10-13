@@ -1,7 +1,6 @@
 import React from 'react';
 import './jennDiazCard.scss';
-import imageFront from './jenn.png';
-import imageBack from './jenn-on-bike.png';
+import headshot from './jenn.png';
 
 
 //

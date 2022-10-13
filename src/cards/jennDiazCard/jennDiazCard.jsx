@@ -17,8 +17,8 @@ function jennDiazCard() {
             <p className="jdText">specializing in web accessibility and usability</p>
         <div className="jdButtons">
           <a className="jdButton" href="https://github.com/jenndiaz">GitHub</a>
-          <a className="jdButton" href="https://github.com/jenndiaz">LinkedIn</a>
-          <a className="jdButton" href="https://github.com/jenndiaz">Blog</a>
+          <a className="jdButton" href="https://www.linkedin.com/in/jennifergrenierdiaz/">LinkedIn</a>
+          <a className="jdButton" href="https://medium.com/@jagdiaz">Blog</a>
         </div>
       </div>
 

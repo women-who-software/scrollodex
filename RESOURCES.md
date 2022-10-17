@@ -36,5 +36,5 @@
 
 [React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)   
 [React JS Crash Course 2021 - Traversy Media](https://youtu.be/w7ejDZ8SWv8)   
-[React JS Course for Beginners - 2021 Tutorial](https://youtu.be/nTeuhbP7wdE)
-[Epic React - Kent Dodds ($$$)](https://epicreact.dev/)
+[React JS Course for Beginners - 2021 Tutorial](https://youtu.be/nTeuhbP7wdE)   
+[Epic React - Kent Dodds ($$$)](https://epicreact.dev/)   

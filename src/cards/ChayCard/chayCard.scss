@@ -2,11 +2,11 @@
     color: rgb(255, 255, 255);
 }
 
-.card-chay button a {
+.chayButton a {
     color: rgb(255, 255, 255);
 }
 
-.card-chay button a:hover  {
+.chayButton a:hover  {
     color: #1AAB8A;
 }
 
@@ -39,7 +39,7 @@
     border: 2px dashed rgb(255, 255, 255);
 }
 
-.card-chay button{
+.chayButton{
   background:#1AAB8A;
   color:#fff;
   border:none;
@@ -51,11 +51,11 @@
   outline:none;
   border-radius: 50px;
 }
-button:hover{
+.chayButton:hover{
   background:#fff;
   color:#1AAB8A;
 }
-button:before,button:after{
+.chayButton:before, .chayButton:after{
   content:'';
   position:absolute;
   top:0;
@@ -65,17 +65,17 @@ button:before,button:after{
   background: #1AAB8A;
   transition:400ms ease all;
 }
-button:after{
+.chayButton:after{
   right:inherit;
   top:inherit;
   left:0;
   bottom:0;
 }
-button:hover:before,button:hover:after{
+.chayButton:hover:before, .chayButton:hover:after{
   width:100%;
   transition:800ms ease all;
 }
 
-.card-chay button {
+.chayButton {
     margin-bottom: 20px;
 }

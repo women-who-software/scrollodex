@@ -5,11 +5,27 @@
     grid-template-rows: auto;
     align-items: center;
     background-color: white;
+    border-color: #004643;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.jennsCardContainerDark{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    align-items: center;
+    background-color: #004643;
+    border-color: white;
     border-style: solid;
     border-width: 3px;
 }
 .jdCard{
     text-align: center;
+}
+
+.toggleButton{
+    margin-top: 10px;
 }
 
 .jdName{
@@ -18,9 +34,21 @@
     font-weight: bold;
 }
 
+.jdNameDark{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 .jdText{
     margin-bottom: 0;
     color: #444444;
+    font-family: 'Merriweather', serif;
+}
+
+.jdTextDark{
+    margin-bottom: 0;
+    color: white;
     font-family: 'Merriweather', serif;
 }
 
@@ -37,6 +65,22 @@
     border-radius: 10px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+.jdButtonDark{
+    background-color: white;
+    color: #004643;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.jdButtonDark:hover{
+    color: white;
+    background-color: #9981A2;
 }
 
 .jdButton:hover{

@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './jennDiazCard.scss';
 import headshot from './jenn.png';
 
+function JennDiazCard() {
 
 //
 
-function jennDiazCard() {
   return (
     <div className="jennsCardContainer">
         <div className="card">
@@ -21,10 +21,8 @@ function jennDiazCard() {
           <a className="jdButton" href="https://medium.com/@jagdiaz">Blog</a>
         </div>
       </div>
-
-
     </div>
   );
 }
 
-export default jennDiazCard;
+export default JennDiazCard;

@@ -1,33 +1,28 @@
 import React from 'react';
 import './jennDiazCard.scss';
-import imageFront from './jenn.png';
-import imageBack from './jenn-on-bike.png';
+import headshot from './jenn.png';
 
 
 //
 
 function jennDiazCard() {
   return (
-    <div className="jdcardContainer">
-      <div className="flip-image">
-        <div className="flip-image-inner"> 
-          <div className="flip-image-front"> 
-            <img className="jdImage" src={imageFront}  alt="Jenn wearing a blue Dockwa vest outside with trees and a path behind her" />
-          </div>
-          <div className="flip-image-back"> 
-            <img className="jdImage" src={imageBack}  alt="Jenn on a mountain bike descending a rock obstable" />
-          </div>
+    <div className="jennsCardContainer">
+        <div className="card">
+            <img className="imageContainer" src={headshot} alt="headsht of a white women with brown hair smiling and standing outside" />
+        </div>
+        <div className="card">
+            <h3 className="jdName">Jennifer Grenier Diaz</h3>
+            <p className="jdText">Software Engineer</p>
+            <p className="jdText">specializing in web accessibility and usability</p>
+        <div className="jdButtons">
+          <a className="jdButton" href="https://github.com/jenndiaz">GitHub</a>
+          <a className="jdButton" href="https://www.linkedin.com/in/jennifergrenierdiaz/">LinkedIn</a>
+          <a className="jdButton" href="https://medium.com/@jagdiaz">Blog</a>
         </div>
       </div>
-      <div className="jdCard">
-        <h3 className="jdInfo">Jenn Diaz</h3>
-        <p className="jdInfo">Junior Software Engineer</p>
-        <p>at The Wanderlust Group</p>
-      <div className="jdLinks"> 
-        <a className="jdLink" href="https://github.com/JAGrenier">Github</a>       
-        <a className="jdLink" href="https://www.linkedin.com/in/jagdiaz">LinkedIn</a>
-      </div>
-      </div>
+
+
     </div>
   );
 }

@@ -24,8 +24,8 @@
     text-align: center;
 }
 
-.toggleButton{
-    margin-top: 10px;
+.icon{
+    font-size: 18px;
 }
 
 .jdName{
@@ -67,6 +67,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.jdButton:hover{
+    color: white;
+    background-color: #5F4B66;
+}
 
 .jdButtonDark{
     background-color: white;
@@ -83,7 +87,31 @@
     background-color: #9981A2;
 }
 
-.jdButton:hover{
-    color: white;
-    background-color: #5F4B66;
+.toggleButton{
+    margin: -10px;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    background-color: white;
+    color: #004643;
 }
+
+.toggleButtonDark{
+    margin: -10px;
+    width: 75%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+    background-color: #004643;
+    color: white;
+}
+

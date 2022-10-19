@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './jennDiazCard.scss';
 import headshot from './jenn.png';
-import Spooky from './spooky';
+import Spooky from './spooky.jsx';
 
 function JennDiazCard() {
 

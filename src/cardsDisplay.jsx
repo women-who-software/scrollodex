@@ -7,7 +7,7 @@ import KayleesCard from "./cards/kayleesCard/kayleesCard";
 import KristiCard from "./cards/kristiCard/kristiCard";
 import ChayCard from "./cards/ChayCard/ChayCard";
 import KesineeCard from "./cards/kesineeCard/KesineeCard";
-import JennDiazCard from "./cards/JennDiazCard/jennDiazCard";
+import JennDiazCard from "./cards/jennDiazCard/jennDiazCard";
 import RachaelCard from "./cards/rachael-tCard/rachael-tCard";
 import ChumleyCard from "./cards/chumleyCard/chumleyCard";
 import BriesCard from "./cards/briesCard/briesCard";

@@ -30,22 +30,12 @@ function JennDiazCard() {
           <a className={`jdButton ${darkMode && 'jdButtonDark'}`} href='https://medium.com/@jagdiaz'>Blog</a>
         </div>     
       </div>
-      {!darkMode && 
-        <button 
-          className='toggleButton' 
-          onClick={() => toggleDarkMode()}>
-          Dark Mode
-          <span className='icon'>&#x2610;</span>
-        </button>
-      }
-      {darkMode && 
-        <button 
-          className='toggleButton toggleButtonDark' 
-          onClick={() => toggleDarkMode()}>
-          Dark Mode
-          <span className='icon'>&#x2611;</span>
-        </button>
-      }
+      <button 
+        className={`toggleButton ${darkMode && 'toggleButtonDark'}`}
+        type="button"
+        onClick={() => toggleDarkMode()}>
+        {darkMode ? 'Light Mode' : 'Dark Mode'}
+      </button>
     </div>
   );
 }

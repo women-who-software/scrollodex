@@ -39,7 +39,7 @@
 
 .jdButton:hover{
     color: white;
-    background-color: #5F4B66;
+    background-color: #9A81A2;
 }
 
 .jdButtonDark{
@@ -48,12 +48,7 @@
     font-weight: bold;
 }
 
-.icon{
-    font-size: 18px;
-}
-
 .toggleButton{
-    margin: -10px;
     width: 75%;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -64,6 +59,7 @@
     border: none;
     background-color: white;
     color: #004643;
+    border: 0.5px solid #004643;
 }
 
 .toggleButton:hover{
@@ -73,6 +69,7 @@
 .toggleButtonDark{
     background-color: #004643;
     color: white;
+    border: 0.5px solid white;
 }
 
 .ghost{

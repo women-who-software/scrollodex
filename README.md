@@ -11,7 +11,7 @@ Our project is ready to accept PRs! We launched it on Oct 13, 2021 in our [Meetu
 To get started, read and follow along with our [How To 101: The Non-Scary Guide](HOWTO101.md)!
 
 ## Requirements
-- Node
+- Node 16+
 - Yarn
 
 ## Installation

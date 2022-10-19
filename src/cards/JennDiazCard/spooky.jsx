@@ -2,18 +2,18 @@ import React, { useState, useEffect } from 'react';
 import './jennDiazCard.scss';
 import ghost from './ghost.png';
 
-const Spooky = ({} ) => {
+const Spooky = () => {
 
     const [fadeProp, setFadeProp] = useState({
       fade: 'fade-in', 
     })
   
     useEffect(() => {
-      const timeout = setInterval(() => {
+      setInterval(() => {
         setFadeProp({
           fade: 'fade-out'
         })
-      }, 2000);
+      }, 3000);
 
       return () => {}
     }, [])

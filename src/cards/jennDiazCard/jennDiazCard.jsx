@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './jennDiazCard.scss';
 import headshot from './jenn.png';
+import Spooky from './spooky';
 
 function JennDiazCard() {
 
@@ -17,7 +18,8 @@ function JennDiazCard() {
     <div className={darkMode ? "jennsCardContainerDark" : "jennsCardContainer"}>
       <div className="card">
           <img className="imageContainer" src={headshot} alt="headshot of a white women with brown hair smiling and standing outside" />
-      </div>
+          {darkMode && <Spooky />}
+          </div>
       <div className="card">
           <h3 className={darkMode ? 'jdNameDark' : 'jdName'}>Jennifer Grenier Diaz</h3>
           <p className={darkMode ? 'jdTextDark' : 'jdText'}>Software Engineer</p>

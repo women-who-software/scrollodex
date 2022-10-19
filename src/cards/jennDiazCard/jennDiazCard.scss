@@ -8,6 +8,7 @@
     border-color: #004643;
     border-style: solid;
     border-width: 3px;
+    position: relative;
 }
 
 .jennsCardContainerDark{
@@ -115,3 +116,52 @@
     color: white;
 }
 
+.ghost{
+    width: 25%;
+}
+
+.animation{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 125px;
+    margin: 0;
+}
+
+// .fade-in{
+//     transition: opacity 1s ease;
+// }
+
+.fade-out{
+    opacity: 0;
+    animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2.5s;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}

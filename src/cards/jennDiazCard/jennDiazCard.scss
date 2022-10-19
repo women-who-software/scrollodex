@@ -1,5 +1,6 @@
 
 .jennsCardContainer{
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
@@ -8,16 +9,11 @@
     border-color: #004643;
     border-style: solid;
     border-width: 3px;
-    position: relative;
 }
 
 .jennsCardContainerDark{
     background-color: #004643;
     border-color: white;
-}
-
-.jdCard{
-    text-align: center;
 }
 
 .jdName{
@@ -26,25 +22,10 @@
     font-weight: bold;
 }
 
-.jdNameDark{
-    color: white;
-}
-
-
 .jdText{
     margin-bottom: 0;
     color: #444444;
     font-family: 'Merriweather', serif;
-}
-
-.jdTextDark{
-    color: white;
-}
-
-.jdButtons{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 1em;
 }
 
 .jdButton{
@@ -102,7 +83,6 @@
     position: absolute;
     display: flex;
     align-items: center;
-    top: 125px;
     margin: 0;
 }
 

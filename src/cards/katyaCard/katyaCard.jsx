@@ -11,12 +11,12 @@ function KatyaCard() {
             <div class="kat-image-border"></div>
         </div>
 
-        <div className="kat-card">
-            <h3 class="kat-header">Katya Sarmiento</h3>
-            <span class="role1">Full-Stack Developer</span><span class="role2">Lifelong Learner</span>
-            <a href="https://github.com/Kitkatnik/" class="kat-button">GITHUB</a>
-            <a href="https://www.polywork.com/kitkatnik" class="kat-button">POLYWORK</a>
-            <a href="https://www.linkedin.com/in/katyasarmiento/" class="kat-button">LINKEDIN</a>
+        <div className="card">
+            <h3>Katya Sarmiento</h3>
+            <p>Operations Manager turned Full-Stack Developer</p>
+            <a href="https://github.com/Kitkatnik/" className="button">GitHub</a>
+            <a href="https://www.polywork.com/kitkatnik" className="button">Polywork</a>
+            <a href="https://www.linkedin.com/in/katyasarmiento/" className="button">LinkedIn</a>
         </div>
 
     </div>

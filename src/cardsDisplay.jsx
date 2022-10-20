@@ -22,6 +22,9 @@ import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 import KatyaCard from "./cards/katyaCard/katyaCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
+import HongCard from "./cards/hongCard/hongCard";
+import AlliesCard from "./cards/AlliesCard/AlliesCard";
+import RachelWCard from "./cards/rachelWCard/rachelWCard";
 import AshleighCard from "./cards/aHalverstadtCard/aHalverstadtCard";
 import RachelCard from "./cards/rachelCard/rachelCard";
 import JamesKCard from "./cards/jamesKCard/JamesKCard";
@@ -49,6 +52,9 @@ function CardsDisplay() {
     { name: "Parastou", component: <ParastouCard /> },
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
+    { name: "Hong", component: <HongCard /> },
+    { name: "Allie", component: <AlliesCard /> },
+    { name: "Rachel", component: <RachelWCard />},
     { name: "Ashleigh", component: <AshleighCard /> },
     { name: "Rachel", component: <RachelCard /> },
     { name: "Katya", component: <KatyaCard /> },
@@ -106,11 +112,21 @@ function CardsDisplay() {
   return (
     <>
       <div className="sort-by-bar">
-        <button className="btn btn-main" onClick={() => setDisplayedCards(initialCards)}>Initial</button>
-        <button className="btn btn-main" onClick={() => setDisplayedCards(sortedCards)}>
+        <button
+          className="btn btn-main"
+          onClick={() => setDisplayedCards(initialCards)}
+        >
+          Initial
+        </button>
+        <button
+          className="btn btn-main"
+          onClick={() => setDisplayedCards(sortedCards)}
+        >
           Alphabetical
         </button>
-        <button className="btn btn-main" onClick={() => randomizeCards()}>Randomize</button>
+        <button className="btn btn-main" onClick={() => randomizeCards()}>
+          Randomize
+        </button>
       </div>
       <div className="cardholder">
         {displayedCards.map((card, i) => {

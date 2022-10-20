@@ -4,18 +4,18 @@ import image from './rachel_headshot.jpg';
 
 function RachelCard() {
   return (
-    <div className="rachelCardContainer">
+    <div className="rtCardContainer">
 
-      <div className="card">
-        <img className="imageContainer" src={image} alt="rachel headshot" />
+      <div className="rtcard">
+        <img className="rtimageContainer" src={image} alt="rachel headshot" />
       </div>
 
-      <div className="card">
-        <h3>Rachel Teeter</h3>
-        <p>Software Engineer</p>
+      <div className="rtcard">
+        <h3 className="rttext">Rachel Teeter</h3>
+        <p className="rttext">Software Engineer</p>
         <a
           rel="noreferrer"
-          className="link"
+          className="rtlink"
           target="_blank"
           href="https://github.com/rteeter"
         >GitHub</a>

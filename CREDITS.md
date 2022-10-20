@@ -9,11 +9,10 @@
 [Rachael Thomas](https://github.com/rachael-t), Frontend Developer from Denver, CO  
 [Supamas Sirichotiyakul](https://github.com/supamasS), Software Engineer from Gilbert, AZ & New Hartford, NY 
 [Dominika Wilk Avila](https://github.com/domsbytes), Sr Software Engineer from Phoenix, AZ  
-[Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO  
-[Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO   
-[Parastou Safajou](https://github.com/Parastou63), Software Engineer from Mountain View, CA  
-[Audrea Cook](https://github.com/audthecodewitch), Software Engineer from Colorado Springs, CO  
-[Maria Bogomaz](https://github.com/mariajcb), Frontend Engineer from Longmont, CO  
+[Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO
+[Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO 
+[Parastou Safajou](https://github.com/Parastou63), Software Engineer from Mountain View, CA
+[Audrea Cook](https://github.com/audthecodewitch), Software Engineer from Colorado Springs, CO
+[Maria Bogomaz](https://github.com/mariajcb), Frontend Engineer from Longmont, CO
+[Rachel Teeter](https://github.com/rteeter), Software Engineer from Denver, CO
 [Katya Sarmiento](https://github.com/Kitkatnik), Software Engineer from Atlanta, GA
-
-

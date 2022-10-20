@@ -7,7 +7,7 @@ function AshleighCard() {
     <div className="cardContainer">
 
         <div className="card">
-            <img className="imageContainer" src={image} alt="Ashleigh Halverstadt's headshot"/>
+            <img className="imageContainer" src={image} alt="Headshot of Ashleigh Halverstadt, a white woman with pixie-style brown hair who is wearing a grey top and pearl earrings, smiling, and standing in front of a boulder"/>
         </div>
 
         <div className="card">

@@ -1,8 +1,10 @@
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    'line line line'
+    'socials logo linktree';
   align-items: center;
-  height: 175px;
+  height: auto;
   justify-items: center;
   overflow: hidden;
   margin: 15px;
@@ -29,6 +31,12 @@ hr {
   width: auto;
 }
 
-.link{
-  color: #077D7F
+@media (max-width: 700px) {
+  .footer {
+    grid-template-areas:
+      'line'
+      'socials'
+      'logo'
+      'linktree';
+  }
 }

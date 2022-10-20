@@ -9,8 +9,8 @@ import email from './Email.png'
 export const Footer = () => {
   return (
     <footer className="footer">
-      <hr />
-      <div className="footer-links">
+      <hr className="line" />
+      <div className="footer-links socials">
         <a href="https://www.instagram.com/wwcodecolorado/">
           <img className="social" alt="facebook" src={instagram}/>
         </a>
@@ -33,7 +33,7 @@ export const Footer = () => {
           <img className="social" alt="email" src={email}/>
         </a>
       </div>
-      <div>
+      <div className="logo">
         <a href="https://www.womenwhocode.com/boulder-denver">
           <img
             className="wwcbd-logo-footer"
@@ -42,7 +42,7 @@ export const Footer = () => {
           </img>
         </a>
       </div>
-      <div className="footer-linktree">
+      <div className="linktree">
         <p className="mb-0">See Upcoming Events, Join our Slack Community, and more!</p>
         <a className="btn btn-main" href="https://linktr.ee/wwcodecolorado">Linktree</a>
       </div>

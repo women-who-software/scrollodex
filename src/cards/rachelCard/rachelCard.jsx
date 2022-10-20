@@ -4,7 +4,7 @@ import image from './rachel_headshot.jpg';
 
 function RachelCard() {
   return (
-    <div className="cardContainer">
+    <div className="rachelCardContainer">
 
       <div className="card">
         <img className="imageContainer" src={image} alt="rachel headshot" />

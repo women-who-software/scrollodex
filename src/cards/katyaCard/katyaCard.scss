@@ -1,0 +1,137 @@
+// FONT IMPORT
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Exo+2:wght@200;300;400;500;600;700;800&family=Press+Start+2P&display=swap');
+
+// BACKGROUND
+.kat-cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    align-items: center;
+    border: 2px solid #fff;
+    background-color: #acbdd9;
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+}
+.kat-card{
+    margin: auto;
+    padding: 0.5rem;
+    text-align: center;
+    position: relative;
+}
+
+// IMAGE
+.kat-image {
+    background-image: url(./KatyaHeadshot.jpg);
+    width: 100%;
+  }
+
+  .kat-image-border{
+    position: absolute;
+    z-index: 10;
+    content: "";
+    top: 15px;
+    right: 0px;
+    left: 15px;
+    bottom: 0px;
+    border: solid 2px #496ddb;
+//     border-radius: 50%;
+  }
+.kat-imageContainer{
+    width: 130px;
+    height: auto;
+    margin: auto;
+    // box-shadow: 0px 0px 50px #496ddb;
+    // border-radius: 50%;
+}
+
+// BUTTONS
+.kat-button{
+    background-color:#496ddb;
+    display: block;
+    padding: 3%;
+    margin: 2% auto;
+    width: 60%;
+    text-decoration: none;
+    color: #f4f4f8;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 0.6em;
+    transition: width 1s ease-out 100ms, background-color 1s ease-out 100ms;
+}
+.kat-button:hover{
+    width: 80%;
+    text-decoration: none;
+    color: #f4f4f8;
+    background-color: #fe5b5e;
+}
+
+// TEXT
+.kat-header{
+    text-transform: uppercase;
+}
+.kat-tagline{
+    font-family: 'Abel', sans-serif;
+}
+
+// TAGLINE ANIMATION
+.role1 {
+    animation: role1;
+}
+  
+.role2 {
+    animation: role2;
+}
+  
+.role1,
+.role2 {
+overflow: hidden;
+white-space: nowrap;
+display: inline-block;
+position: relative;
+animation-duration: 20s;
+animation-timing-function: steps(25, end);
+animation-iteration-count: infinite;
+}
+  
+.role1::after,
+.role2::after {
+content: "|";
+position: absolute;
+right: 0;
+animation: caret infinite;
+animation-duration: 1s;
+animation-timing-function: steps(1, end);
+}
+
+@keyframes caret {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+}
+  
+@keyframes role1 {
+    0%,
+    50%,
+    100% {
+        width: 0;
+    }
+    10%,
+    40% {
+        width: 8.4em;
+    }
+}
+
+@keyframes role2 {
+    0%,
+    50%,
+    100% {
+        width: 0;
+    }
+    60%,
+    90% {
+        width: 6.5em;
+    }
+}

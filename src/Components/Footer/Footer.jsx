@@ -21,7 +21,7 @@ export const Footer = () => {
           <img className="social" alt="instagram" src={instagram}/>
         </a>
         <a href="https://www.youtube.com/c/WomenWhoCodeGlobal/videos">
-          <img className="social" alt="facebook" src={youtube}/>
+          <img className="social" alt="youtube" src={youtube}/>
         </a>
         <a href="https://www.linkedin.com/showcase/wwcodecolorado/">
           <img className="social" alt="linkedin" src={linkedin}/>
@@ -29,7 +29,7 @@ export const Footer = () => {
         <a href="https://www.facebook.com/wwcodecolorado/">
           <img className="social" alt="facebook" src={facebook}/>
         </a>
-        <a href="https://www.linkedin.com/showcase/wwcodecolorado/">
+        <a href="mailto: denver@womenwhocode.com">
           <img className="social" alt="email" src={email}/>
         </a>
       </div>

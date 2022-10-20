@@ -7,7 +7,7 @@
 [Rebecca Chumley](https://github.com/rebeccachumley), Frontend Developer from Fredericksburg, VA  
 [Jennifer Grenier Diaz](https://github.com/jenndiaz), Software Engineer from Fort Collins, CO  
 [Rachael Thomas](https://github.com/rachael-t), Frontend Developer from Denver, CO  
-[Supamas Sirichotiyakul](https://github.com/supamasS), Software Engineer from Gilbert, AZ & New Hartford, NY 
+[Supamas Sirichotiyakul](https://github.com/supamasS), Software Engineer from Gilbert, AZ & New Hartford, NY <br>
 [Dominika Wilk Avila](https://github.com/domsbytes), Sr Software Engineer from Phoenix, AZ  
 [Jordan Levine](https://github.com/mjordancodes), CSS Engineer from Denver, CO  
 [Indigo Starr](https://github.com/indigostarr), Software Engineer from Boulder, CO   

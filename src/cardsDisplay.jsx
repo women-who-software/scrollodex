@@ -21,13 +21,14 @@ import ParastouCard from "./cards/parastouCard/parastouCard";
 import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
+import AlliesCard from "./cards/AlliesCard/AlliesCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
 
   // Set up cards with all the different ways cards are created
   const cards = [
-    { name: "Example", component: <ExampleCard/> },
+    { name: "Example", component: <ExampleCard /> },
     { name: "Kaylee", component: <KayleesCard /> },
     { name: "Kristi", component: <KristiCard /> },
     { name: "Chay", component: <ChayCard /> },
@@ -45,6 +46,7 @@ function CardsDisplay() {
     { name: "Parastou", component: <ParastouCard /> },
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
+    { name: "Allie", component: <AlliesCard /> },
   ];
 
   Object.keys(contributors).forEach((contributor) => {
@@ -98,11 +100,21 @@ function CardsDisplay() {
   return (
     <>
       <div className="sort-by-bar">
-        <button className="btn btn-main" onClick={() => setDisplayedCards(initialCards)}>Initial</button>
-        <button className="btn btn-main" onClick={() => setDisplayedCards(sortedCards)}>
+        <button
+          className="btn btn-main"
+          onClick={() => setDisplayedCards(initialCards)}
+        >
+          Initial
+        </button>
+        <button
+          className="btn btn-main"
+          onClick={() => setDisplayedCards(sortedCards)}
+        >
           Alphabetical
         </button>
-        <button className="btn btn-main" onClick={() => randomizeCards()}>Randomize</button>
+        <button className="btn btn-main" onClick={() => randomizeCards()}>
+          Randomize
+        </button>
       </div>
       <div className="cardholder">
         {displayedCards.map((card, i) => {

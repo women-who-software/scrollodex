@@ -13,9 +13,9 @@ function KatyaCard() {
         <div className="card">
             <h3>Katya Sarmiento</h3>
             <p>Operations Manager turned Full-Stack Developer</p>
-            <a href="https://github.com/Kitkatnik/" class="button">GitHub</a>
-            <a href="https://www.polywork.com/kitkatnik" class="button">Polywork</a>
-            <a href="https://www.linkedin.com/in/katyasarmiento/" class="button">LinkedIn</a>
+            <a href="https://github.com/Kitkatnik/" className="button">GitHub</a>
+            <a href="https://www.polywork.com/kitkatnik" className="button">Polywork</a>
+            <a href="https://www.linkedin.com/in/katyasarmiento/" className="button">LinkedIn</a>
         </div>
 
     </div>

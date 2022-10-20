@@ -7,7 +7,7 @@ function ExampleCard() {
     <div className="cardContainer">
 
         <div className="card">
-            <img className="imageContainer" src={image} alt="example headshot of a woman" />
+            <img className="imageContainer" src={image} alt="group of women at NYSE standing in front of WWCode logo." />
         </div>
 
         <div className="card">

@@ -20,15 +20,20 @@ import RonisCard from "./cards/ronisCard/roniCard";
 import ParastouCard from "./cards/parastouCard/parastouCard";
 import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
+import KatyaCard from "./cards/katyaCard/katyaCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import HongCard from "./cards/hongCard/hongCard";
+import RachelWCard from "./cards/rachelWCard/rachelWCard";
+import AshleighCard from "./cards/aHalverstadtCard/aHalverstadtCard";
+import RachelCard from "./cards/rachelCard/rachelCard";
+import JamesKCard from "./cards/jamesKCard/JamesKCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
 
   // Set up cards with all the different ways cards are created
   const cards = [
-    { name: "Example", component: <ExampleCard/> },
+    { name: "Example", component: <ExampleCard /> },
     { name: "Kaylee", component: <KayleesCard /> },
     { name: "Kristi", component: <KristiCard /> },
     { name: "Chay", component: <ChayCard /> },
@@ -47,6 +52,11 @@ function CardsDisplay() {
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
     { name: "Hong", component: <HongCard /> },
+    { name: "Rachel", component: <RachelWCard />},
+    { name: "Ashleigh", component: <AshleighCard /> },
+    { name: "Rachel", component: <RachelCard /> },
+    { name: "Katya", component: <KatyaCard /> },
+    { name: "James", component: <JamesKCard /> },
   ];
 
   Object.keys(contributors).forEach((contributor) => {

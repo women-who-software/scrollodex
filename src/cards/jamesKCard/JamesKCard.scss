@@ -1,0 +1,141 @@
+
+.jkCardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+.jkCardContainerDark{
+    background:  linear-gradient(rgba(48, 56, 73, 1),rgb(122, 122, 155));
+}
+
+.card{
+    margin: auto;
+    //padding: 1rem 1rem 1rem 1rem;
+    //align-items: right;
+    text-align: center;
+    //border: 2px solid white;
+}
+
+.jkCardDark {
+    color: white;
+}
+
+.image {
+    background-image: url(./hawaiiJames.jpg);
+  }
+.imageContainer{
+    //align-items: left;
+    width: 120px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.jkButton{
+    background-color: #344bae;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+
+}
+
+.jkButtonDark{
+    background-color: #6476c2;
+
+}
+
+.jkButton:hover {
+    color: gray;
+}
+
+.jkButtonDark:hover {
+    color: rgb(62, 62, 62);
+}
+
+:root {
+--sparkleblue: #568df5;
+--sparklewhite: #d3e2ff;
+--sparklepurple: #d056f5;
+--sparklepink: #f07686;
+}
+
+.jkSparkleContainer {
+    width: 300px;
+    position: absolute;
+    z-index: -200;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.jkSparkleBox {
+    width: 30px;
+    height: 30px;
+    z-index: -200;
+}
+
+//sparkle timing
+
+.jkSparkleBox:nth-child(1),
+.jkSparkleBox:nth-child(3n+4) {
+    clip-path: circle(3px at 30% 60%);
+    background: radial-gradient(circle at 30% 100%, transparent 20%, var(--sparkleblue) 100%);
+    animation-name: sparkleBlue;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+
+}
+
+
+.jkSparkleBox:nth-child(2), 
+.jkSparkleBox:nth-child(3n+2) {
+    transform: rotate(90deg);
+    background: radial-gradient(circle at 100% 50%, transparent 20%, var(--sparklepink) 100%);
+    clip-path: circle(4px at 60% 30%);
+    animation-name: sparklePink;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    animation-delay: .3s;
+}
+
+.jkSparkleBox:nth-child(3n+3) {
+    transform: rotate(90deg);
+    background: radial-gradient(circle at 100% 50%, transparent 20%, var(--sparklewhite) 100%);
+    clip-path: circle(2px at 50% 50%);
+    animation-name: sparkleWhite;
+    animation-duration: 3.8s;
+    animation-iteration-count: infinite;
+    animation-delay: .1s;
+}
+
+
+
+
+//sparkle phases
+
+@keyframes sparkleBlue {
+    0% {background: var(--sparkleblue);}
+    50% {background: transparent;}
+    60% {background: var(--sparklewhite);}
+    100% {background: var(--sparkleblue);}
+}
+
+@keyframes sparkleWhite {
+    0% {background: var(--sparklewhite);}
+    50% {background: transparent;}
+    60% {background: var(--sparklepurple);}
+    100% {background: var(--sparklewhite);}
+}
+
+@keyframes sparklePink {
+    0% {background: var(--sparklepink);}
+    30% {background: transparent;}
+    50% {background: var(--sparklewhite);}
+    100% {background: var(--sparklepink);}
+}

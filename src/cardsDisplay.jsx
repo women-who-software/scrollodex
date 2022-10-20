@@ -21,6 +21,7 @@ import ParastouCard from "./cards/parastouCard/parastouCard";
 import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
+import RachelWCard from "./cards/rachelWCard/rachelWCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
@@ -45,6 +46,7 @@ function CardsDisplay() {
     { name: "Parastou", component: <ParastouCard /> },
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
+    { name: "Rachel", component: <RachelWCard />}
   ];
 
   Object.keys(contributors).forEach((contributor) => {

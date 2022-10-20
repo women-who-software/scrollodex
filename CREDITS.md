@@ -15,5 +15,7 @@
 [Audrea Cook](https://github.com/audthecodewitch), Software Engineer from Colorado Springs, CO  
 [Maria Bogomaz](https://github.com/mariajcb), Frontend Engineer from Longmont, CO  
 [Katya Sarmiento](https://github.com/Kitkatnik), Software Engineer from Atlanta, GA
+[Rachel Weisberger](https://github.com/rweisberger), Software Engineer from Ann Arbor, MI
+
 
 

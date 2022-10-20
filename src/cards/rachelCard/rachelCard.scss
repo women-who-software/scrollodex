@@ -1,0 +1,44 @@
+.rtCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+
+.rtcard {
+    margin: auto;
+    text-align: center;
+}
+
+.rtimage {
+    background-image: url(./rachel_headshot.jpg);
+}
+
+.rtimageContainer {
+    width: 120px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.rttext {
+    color: white
+}
+
+.rtlink {
+    padding: 5px 10px;
+    margin: 0 5px 5px;
+    background-color: rgb(47, 91, 72);
+    box-shadow: 2px 2px 4px grey;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: smaller;
+}
+
+.rtlink:hover {
+    background-color: white;
+    color: cadetblue;
+    text-decoration: none;
+}

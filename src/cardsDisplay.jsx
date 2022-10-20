@@ -23,6 +23,7 @@ import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 import KatyaCard from "./cards/katyaCard/katyaCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
 import AlliesCard from "./cards/AlliesCard/AlliesCard";
+import RachelWCard from "./cards/rachelWCard/rachelWCard";
 import AshleighCard from "./cards/aHalverstadtCard/aHalverstadtCard";
 import RachelCard from "./cards/rachelCard/rachelCard";
 import JamesKCard from "./cards/jamesKCard/JamesKCard";
@@ -51,6 +52,7 @@ function CardsDisplay() {
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
     { name: "Allie", component: <AlliesCard /> },
+    { name: "Rachel", component: <RachelWCard />},
     { name: "Ashleigh", component: <AshleighCard /> },
     { name: "Rachel", component: <RachelCard /> },
     { name: "Katya", component: <KatyaCard /> },

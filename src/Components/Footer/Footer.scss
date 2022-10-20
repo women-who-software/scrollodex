@@ -6,17 +6,16 @@
   align-items: center;
   height: auto;
   justify-items: center;
-  overflow: hidden;
   margin: 15px;
 }
 
-hr {
+.line {
   grid-column-start: 1;
   grid-column-end: -1;
   width: 75%;
 }
 
-.footer-links {
+.socials {
   display: flex;
   gap: 15px;
 }

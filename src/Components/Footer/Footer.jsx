@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <hr className="line" />
-      <div className="footer-links socials">
+      <div className="socials">
         <a href="https://www.instagram.com/wwcodecolorado/">
           <img className="social" alt="facebook" src={instagram}/>
         </a>

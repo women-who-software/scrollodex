@@ -1,0 +1,24 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+}
+.card {
+  margin: auto;
+  //padding: 1rem 1rem 1rem 1rem;
+  //align-items: right;
+  text-align: center;
+  //border: 2px solid white;
+}
+.image {
+  background-image: url(./allies_headshot.JPG);
+}
+.allieImageContainer {
+  //align-items: left;
+  width: 120px;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 5px 10px #00ffff44;
+}

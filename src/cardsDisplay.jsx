@@ -22,6 +22,7 @@ import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 import KatyaCard from "./cards/katyaCard/katyaCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
+import AlliesCard from "./cards/AlliesCard/AlliesCard";
 import RachelWCard from "./cards/rachelWCard/rachelWCard";
 import AshleighCard from "./cards/aHalverstadtCard/aHalverstadtCard";
 import RachelCard from "./cards/rachelCard/rachelCard";
@@ -50,6 +51,7 @@ function CardsDisplay() {
     { name: "Parastou", component: <ParastouCard /> },
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
+    { name: "Allie", component: <AlliesCard /> },
     { name: "Rachel", component: <RachelWCard />},
     { name: "Ashleigh", component: <AshleighCard /> },
     { name: "Rachel", component: <RachelCard /> },
@@ -108,11 +110,21 @@ function CardsDisplay() {
   return (
     <>
       <div className="sort-by-bar">
-        <button className="btn btn-main" onClick={() => setDisplayedCards(initialCards)}>Initial</button>
-        <button className="btn btn-main" onClick={() => setDisplayedCards(sortedCards)}>
+        <button
+          className="btn btn-main"
+          onClick={() => setDisplayedCards(initialCards)}
+        >
+          Initial
+        </button>
+        <button
+          className="btn btn-main"
+          onClick={() => setDisplayedCards(sortedCards)}
+        >
           Alphabetical
         </button>
-        <button className="btn btn-main" onClick={() => randomizeCards()}>Randomize</button>
+        <button className="btn btn-main" onClick={() => randomizeCards()}>
+          Randomize
+        </button>
       </div>
       <div className="cardholder">
         {displayedCards.map((card, i) => {

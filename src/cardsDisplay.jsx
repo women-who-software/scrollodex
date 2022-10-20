@@ -49,7 +49,6 @@ function CardsDisplay() {
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
     { name: "Rachel", component: <RachelWCard />},
-    { name: "Rachel", component: <RachelWCard />},
     { name: "Katya", component: <KatyaCard /> },
     { name: "James", component: <JamesKCard /> },
   ];

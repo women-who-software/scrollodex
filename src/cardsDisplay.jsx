@@ -22,6 +22,7 @@ import AudreaCard from "./cards/audreasCard/audreaCard";
 import LovelaceCard from "./cards/lovelaceCard/LovelaceCard";
 import KatyaCard from "./cards/katyaCard/katyaCard";
 import ExampleCard from "./cards/exampleCard/exampleCard";
+import AshleighCard from "./cards/aHalverstadtCard/aHalverstadtCard";
 import RachelCard from "./cards/rachelCard/rachelCard";
 import JamesKCard from "./cards/jamesKCard/JamesKCard";
 
@@ -48,6 +49,7 @@ function CardsDisplay() {
     { name: "Parastou", component: <ParastouCard /> },
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
+    { name: "Ashleigh", component: <AshleighCard /> },
     { name: "Rachel", component: <RachelCard /> },
     { name: "Katya", component: <KatyaCard /> },
     { name: "James", component: <JamesKCard /> },

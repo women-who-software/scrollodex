@@ -18,8 +18,8 @@ function ChumleyCard() {
 
         <div className="cardContent cardContentBack">
           <h3>Let's Connect</h3>
-          <a class="email" href="mailto:rebecca.chumley@gmail.com?subject=Women Who Code Boulder/Denver Scrollodex Email" rel='noreferrer'>Email Me</a>
-          <a class="linkedin" href="https://www.linkedin.com/in/rebecca-chumley/" target='_blank' rel='noreferrer'>LinkedIn</a>
+          <a className="email" href="mailto:rebecca.chumley@gmail.com?subject=Women Who Code Boulder/Denver Scrollodex Email" rel='noreferrer'>Email Me</a>
+          <a className="linkedin" href="https://www.linkedin.com/in/rebecca-chumley/" target='_blank' rel='noreferrer'>LinkedIn</a>
         </div>
       </div >
     </div >

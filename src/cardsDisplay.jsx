@@ -46,7 +46,7 @@ function CardsDisplay() {
     { name: "Parastou", component: <ParastouCard /> },
     { name: "Audrea", component: <AudreaCard /> },
     { name: "Ada", component: <LovelaceCard /> },
-    { name: "Rachel", component: <RachelWCard />}
+    { name: "Rachel", component: <RachelWCard />},
   ];
 
   Object.keys(contributors).forEach((contributor) => {

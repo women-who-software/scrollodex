@@ -14,9 +14,9 @@ function KatyaCard() {
         <div className="kat-card">
             <h3 class="kat-header">Katya Sarmiento</h3>
             <span class="role1">Full-Stack Developer</span><span class="role2">Lifelong Learner</span>
-            <a href="https://github.com/Kitkatnik/" target="_blank" rel="noreferrer"class="kat-button">GITHUB</a>
-            <a href="https://www.polywork.com/kitkatnik" target="_blank" rel="noreferrer"class="kat-button">POLYWORK</a>
-            <a href="https://www.linkedin.com/in/katyasarmiento/" target="_blank" rel="noreferrer"class="kat-button">LINKEDIN</a>
+            <a href="https://github.com/Kitkatnik/" target="_blank" rel="noreferrer" class="kat-button">GITHUB</a>
+            <a href="https://www.polywork.com/kitkatnik" target="_blank" rel="noreferrer" class="kat-button">POLYWORK</a>
+            <a href="https://www.linkedin.com/in/katyasarmiento/" target="_blank" rel="noreferrer" class="kat-button">LINKEDIN</a>
         </div>
 
     </div>

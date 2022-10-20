@@ -1,0 +1,34 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 175px;
+  justify-items: center;
+  overflow: hidden;
+  margin: 15px;
+}
+
+hr {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  width: 75%;
+}
+
+.footer-links {
+  display: flex;
+  gap: 15px;
+}
+
+.wwcbd-logo-footer {
+  height: 10em;
+  width: 11em;
+}
+
+.social {
+  height: 1.5em;
+  width: auto;
+}
+
+.link{
+  color: #077D7F
+}

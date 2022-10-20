@@ -14,5 +14,5 @@
 [Parastou Safajou](https://github.com/Parastou63), Software Engineer from Mountain View, CA
 [Audrea Cook](https://github.com/audthecodewitch), Software Engineer from Colorado Springs, CO
 [Maria Bogomaz](https://github.com/mariajcb), Frontend Engineer from Longmont, CO
-
+[Rachel Teeter](https://github.com/rteeter), Software Engineer from Denver, CO
 

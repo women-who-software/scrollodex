@@ -1,0 +1,27 @@
+
+.cassCardContainer{
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: auto;
+    display: flexbox;
+    // flex-direction: ;
+    align-items: center;
+}
+.crcard{
+    margin: auto;
+    //padding: 1rem 1rem 1rem 1rem;
+    //align-items: right;
+    text-align: center;
+    //border: 2px solid white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.image {
+    background-image: url(./creinhart.jpeg);
+  }
+.imageContainer{
+    //align-items: left;
+    width: 120px;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}

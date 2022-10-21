@@ -5,12 +5,15 @@ import image from "./creinhart.jpeg";
 function CassandrasCard() {
   return (
     <div className="cassCardContainer">
-        <img className="imageContainer" src={image} alt="cassandra" />
-      
+      <div className="card">
+        <img className="imageContainer" id="cr" src={image} alt="cassandra" />
+      </div>
+
       <div className="card">
         <h3>Cassandra Reinhart</h3>
         <p>Full Stack Developer</p>
-        
+        <a href="mailto:cassandrareinhart13@gmail.com" class="email">cassandrareinhart13@gmail</a>
+        <div>
         <a
           rel="noreferrer"
           className="link"
@@ -25,6 +28,7 @@ function CassandrasCard() {
           href="https://github.com/cassreinhart">
           {"GitHub"}
         </a>
+        </div>
       </div>
     </div>
   );

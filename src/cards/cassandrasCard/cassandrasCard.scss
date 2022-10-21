@@ -1,27 +1,35 @@
 
 .cassCardContainer{
-    // display: grid;
-    // grid-template-columns: 1fr 1fr;
-    // grid-template-rows: auto;
-    display: flexbox;
-    // flex-direction: ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     align-items: center;
+    background: rgb(126,181,187);
+    background: linear-gradient(0deg, rgba(126,181,187,1) 0%, rgba(56,121,98,1) 97%);
+    padding: 5%
 }
 .crcard{
     margin: auto;
-    //padding: 1rem 1rem 1rem 1rem;
-    //align-items: right;
+    padding: 1rem 1rem 1rem 1rem;
+    align-items: right;
     text-align: center;
-    //border: 2px solid white;
+    border: 2px solid white;
     font-family: 'Courier New', Courier, monospace;
 }
 .image {
     background-image: url(./creinhart.jpeg);
   }
 .imageContainer{
-    //align-items: left;
+    align-items: left;
     width: 120px;
     height: auto;
     margin: auto;
     border-radius: 50%;
+}
+.link {
+    max-width: 40%;
+    min-width: 35%;
+}
+.cassCardContainer .card img {
+    filter: drop-shadow(10px 10px 10px rgb(31, 55, 55));
 }

@@ -1,10 +1,10 @@
 import "./Header.scss";
 import "./Buttons.scss";
-import ContactModal from "./ContactModal";
+//import ContactModal from "./ContactModal";
 import React from "react";
 
 export const Header = () => {
-  const [showModal, setShowModal] = React.useState(false);
+  //const [showModal, setShowModal] = React.useState(false);
 
   return (
     <header className="header">

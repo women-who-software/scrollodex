@@ -19,10 +19,10 @@ export const Header = () => {
           src={process.env.PUBLIC_URL + "/WWCBD.png"}
         ></img>
       </a>
-      <button className="btn btn-main" onClick={() => setShowModal(true)}>
+      {/*<button className="btn btn-main" onClick={() => setShowModal(true)}>
         Contact Us
-      </button>
-      {showModal && <ContactModal setShowModal={setShowModal} />}
+  </button>*/}
+      {/*showModal && <ContactModal setShowModal={setShowModal} />*/}
 
       <h1 className="page--title">Scrollodex</h1>
     </header>

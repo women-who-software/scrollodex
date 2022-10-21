@@ -26,7 +26,7 @@ function JamesKCard() {
         </div>
         
         <div className="card">
-            <img className="imageContainer" src={image} alt="picture of a man with sunglasses next to a body of water" />
+            <img className="imageContainer" src={image} alt="man with sunglasses next to a body of water" />
             <div className={`jkButton ${sparkleMe && 'jkButtonDark'}`}  onClick={sparkleMotion}>
               {!sparkleMe ? 'Dark Mode' : 'Sparkle Time'}
             </div>

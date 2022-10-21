@@ -13,8 +13,9 @@ import Header from "./Components/Header";
 export const CardContext = React.createContext(db.cardsDatabase);
 
 function App() {
+
   return (
-    <CardContext.Provider value={db.cardsDatabase}>
+    <CardContext.Provider style={{position: "relative"}} value={db.cardsDatabase}>
       <Header />
       <div>
         <CardsDisplay />

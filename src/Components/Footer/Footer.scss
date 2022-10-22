@@ -1,8 +1,10 @@
 .footer {
   display: grid;
+  grid-template-columns: repeat(3);
   grid-template-areas: 
     'line line line'
     'socials logo linktree';
+
   align-items: center;
   height: auto;
   justify-items: center;

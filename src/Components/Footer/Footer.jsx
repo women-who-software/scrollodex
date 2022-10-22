@@ -43,7 +43,8 @@ export const Footer = () => {
         </a>
       </div>
       <div className="linktree">
-        <p className="mb-0">See Upcoming Events, Join our Slack Community, and more!</p>
+        <p className="mb-0">Join our Slack Community,</p>
+        <p className="mb-0">view our job board, and more!</p>
         <a className="btn btn-main" href="https://linktr.ee/wwcodecolorado">Linktree</a>
       </div>
     </footer>

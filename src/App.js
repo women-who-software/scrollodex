@@ -5,6 +5,7 @@ import CardsDisplay from "./cardsDisplay";
 import "./index.css";
 import db from "./cardData.json";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer/Footer.jsx"
 
 // Create some context based on the data models stored in the cardData.json
 // file. This can be imported and used in any component below. This will allow
@@ -20,6 +21,7 @@ function App() {
       <div>
         <CardsDisplay />
       </div>
+      <Footer />
     </CardContext.Provider>
   );
 }

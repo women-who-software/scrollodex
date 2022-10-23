@@ -51,7 +51,8 @@ function CardsDisplay() {
     if (
       contributor !== "brielle" &&
       contributor !== "jordan" &&
-      contributor !== "rhonda"
+      contributor !== "rhonda" &&
+      contributor !== "parastou"
     ) {
       cards.push({
         name: contributors[contributor].data.name,

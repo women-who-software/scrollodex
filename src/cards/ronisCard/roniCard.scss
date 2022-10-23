@@ -19,12 +19,12 @@
 
 .roni-card {
     color:#334553;
-    background-color: hsl(75 25 97);
+    background-color: #F8F9F5;
     padding: .5rem;
     margin: 0 .5rem;
 }
 .roni-card h3 {
-    text-decoration: underline rgb(167, 138, 0);
+    text-decoration: underline rgb(167%, 138%, 0%);
     margin-bottom: .5rem;
 }
 
@@ -47,7 +47,7 @@
 }
 .links a:hover,
 .links a:focus {
-    background-color: rgb(167, 138, 0);
+    background-color: rgb(167%, 138%, 0%);
     color:#006675;
     font-size: 1.5rem;
 }

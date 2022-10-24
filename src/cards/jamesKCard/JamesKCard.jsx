@@ -10,7 +10,7 @@ function JamesKCard() {
   let totalGrid = [];
   for (let i = 0; i < sparkleCount; i++) {
       //console.log(i)
-      totalGrid.push(<div className="jkSparkleBox"></div>)
+      totalGrid.push(<div className="jkSparkleBox" key={`JamesDiv${i}`}></div>)
   }
 
   const sparkleMotion = () => {

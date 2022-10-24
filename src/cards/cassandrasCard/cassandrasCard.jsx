@@ -12,7 +12,7 @@ function CassandrasCard() {
       <div className="card">
         <h3>Cassandra Reinhart</h3>
         <p>Full Stack Developer</p>
-        <a href="mailto:cassandrareinhart13@gmail.com" class="email">cassandrareinhart13@gmail</a>
+        <a href="mailto:cassandrareinhart13@gmail.com" className="email">cassandrareinhart13@gmail</a>
         <div>
         <a
           rel="noreferrer"

@@ -1,0 +1,49 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-template-areas: 
+    'line line line'
+    'socials logo linktree';
+
+  align-items: center;
+  height: auto;
+  justify-items: center;
+  margin: 15px;
+}
+
+.line {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  width: 75%;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+}
+
+.linktree{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wwcbd-logo-footer {
+  height: 10em;
+  width: 11em;
+}
+
+.social {
+  height: 1.5em;
+  width: auto;
+}
+
+@media (max-width: 795px) {
+  .footer {
+    grid-template-areas:
+      'line'
+      'socials'
+      'logo'
+      'linktree';
+  }
+}

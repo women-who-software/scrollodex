@@ -28,6 +28,7 @@ import RachelWCard from "./cards/rachelWCard/rachelWCard";
 import AshleighCard from "./cards/aHalverstadtCard/aHalverstadtCard";
 import RachelCard from "./cards/rachelCard/rachelCard";
 import JamesKCard from "./cards/jamesKCard/JamesKCard";
+import CassandrasCard from "./cards/cassandrasCard/cassandrasCard";
 
 function CardsDisplay() {
   const contributors = useContext(CardContext);
@@ -59,13 +60,16 @@ function CardsDisplay() {
     { name: "Rachel", component: <RachelCard /> },
     { name: "Katya", component: <KatyaCard /> },
     { name: "James", component: <JamesKCard /> },
+    { name: "Cassandra", component: <CassandrasCard /> },
+    
   ];
 
   Object.keys(contributors).forEach((contributor) => {
     if (
       contributor !== "brielle" &&
       contributor !== "jordan" &&
-      contributor !== "rhonda"
+      contributor !== "rhonda" &&
+      contributor !== "parastou"
     ) {
       cards.push({
         name: contributors[contributor].data.name,

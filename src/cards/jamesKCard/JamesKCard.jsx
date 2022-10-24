@@ -9,8 +9,8 @@ function JamesKCard() {
   const sparkleCount = 50;
   let totalGrid = [];
   for (let i = 0; i < sparkleCount; i++) {
-      console.log(i)
-      totalGrid.push(<div className="jkSparkleBox"></div>)
+      //console.log(i)
+      totalGrid.push(<div className="jkSparkleBox" key={`JamesDiv${i}`}></div>)
   }
 
   const sparkleMotion = () => {
@@ -26,7 +26,7 @@ function JamesKCard() {
         </div>
         
         <div className="card">
-            <img className="imageContainer" src={image} alt="example headshot of a woman" />
+            <img className="imageContainer" src={image} alt="man with sunglasses next to a body of water" />
             <div className={`jkButton ${sparkleMe && 'jkButtonDark'}`}  onClick={sparkleMotion}>
               {!sparkleMe ? 'Dark Mode' : 'Sparkle Time'}
             </div>

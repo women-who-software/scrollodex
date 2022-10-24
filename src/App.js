@@ -18,9 +18,11 @@ function App() {
   return (
     <CardContext.Provider style={{position: "relative"}} value={db.cardsDatabase}>
       <Header />
-      <div>
-        <CardsDisplay />
-      </div>
+      <main>
+        <div>
+          <CardsDisplay />
+        </div>
+      </main>
       <Footer />
     </CardContext.Provider>
   );

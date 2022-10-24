@@ -1,10 +1,10 @@
 .domCardContainer {
     align-items: center;
-    background: #c54bd3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient( #4bc0c8be, #c54bd3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient( #4bc0c8d3, #c54bd3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: whitesmoke;
-    display: flex;
+    background: #ddccff;  /* fallback for old browsers */
+    //background: -webkit-linear-gradient(#ddccff);  /* Chrome 10-25, Safari 5.1-6 */
+    //@debug: linear-gradient(#ddccff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    //color: whitesmoke;
+    display: flex; 
     height: 100%;
     justify-content: space-around;
 
@@ -13,7 +13,7 @@
     }
 
     a {
-        color: hsl(204, 100%, 75%); 
+        color: black;
         font-weight: bold;
     }
 
@@ -46,15 +46,15 @@
     .link {
         padding: 5px 10px;
         margin: 0 5px 5px;
-        background-color: rgb(38, 114, 95);
+        background-color: #aa80ff;
         border: none;
         border-radius: 5px;
-        color: white;
+        color: black;
         font-size: smaller;
     }
     .link:hover {
-        background-color: rgb(222, 218, 218);
-        color: cadetblue;
+        background-color: #884dff;
+        color: white;
         text-decoration: none;
     }
 

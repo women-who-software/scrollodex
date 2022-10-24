@@ -1,24 +1,43 @@
-
-.cardContainer{
+.ashleighCardContainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
+    background-color: #415A77;
+    color: white;
 }
-.card{
+.ashleighCard{
     margin: auto;
-    //padding: 1rem 1rem 1rem 1rem;
-    //align-items: right;
-    text-align: center;
-    //border: 2px solid white;
+    text-align: left;
 }
 .image {
     background-image: url(./aHalverstadtHeadshot.png);
   }
 .imageContainer{
-    //align-items: left;
     width: 120px;
     height: auto;
     margin: auto;
     border-radius: 50%;
+}
+.ashleighSocial{
+    display: flex;
+    justify-content: flex-start;
+}
+.ashleighButton{
+    background-color: #778DA9;
+    color: white;
+    padding: .3rem;
+    margin-right: .3rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.ashleighButton:hover{
+    color: #415A77;
+}
+.ashleighName{
+    font-family: Courier New, sans-serif;
+}
+.ashleighText, .ashleighButton{
+    font-family: Arial, sans-serif;
 }

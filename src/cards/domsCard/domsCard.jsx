@@ -1,11 +1,11 @@
 import React from "react";
 import "./domsCard.scss";
-import image from "./dom_photo1.png";
+import image from "./dom_120x120.png";
 
 function DomsCard() {
   return (
     <div className="domCardContainer">
-        <img className="imageContainer" src={image} alt="dom's headshot" />
+        <img className="imageContainer" src={image} alt="black and white headshot of a white woman with curled hair" />
       
       <div className="card">
         <h3>Dominika Wilk</h3>

@@ -11,7 +11,7 @@ function ExampleCard() {
 
       <div className="card">
         <h3>Rachael Thomas</h3>
-        <p>Front-End Web Developer</p>
+        <p>Senior Technical Support Engineer</p>
         <a href="https://www.github.com/rachael-t">GitHub</a>
         <br></br>
         <a href="https://www.linkedin.com/in/rachael-lenss-thomas">LinkedIn</a>

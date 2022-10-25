@@ -13,14 +13,14 @@ function DomsCard() {
         
         <a
           rel="noreferrer"
-          className="link"
+          className="domlink"
           target="_blank"
           href="https://www.linkedin.com/in/dominikawilk/">
           {"LinkedIn"}
         </a>
         <a
           rel="noreferrer"
-          className="link"
+          className="domlink"
           target="_blank"
           href="https://github.com/domsbytes">
           {"GitHub"}

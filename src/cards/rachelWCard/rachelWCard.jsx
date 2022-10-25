@@ -4,16 +4,17 @@ import image from './rachelW_headshot.jpg';
 
 function RachelWCard() {
   return (
-    <div className="cardContainer">
-
+    <div className="cardContainer cardImage">
         <div className="card">
-            <img className="imageContainer" src={image} alt="example headshot of a woman" />
+            <img className="imageContainer" src={image} alt="headshot of Rachel Weisberger" />
         </div>
 
         <div className="card">
-            <h3>Rachel Weisberger</h3>
-            <p>Junior Software Engineer</p>
-            <a href='https://www.linkedin.com/in/rachel-weisberger-7247a3163/'>LinkedIn</a>
+            <h3 className="shadow">Rachel Weisberger</h3>
+            <p className="shadow">Junior Software Engineer</p>
+            <a className='myLink' href='https://rweisberger.github.io/'>Portfolio</a>
+            <a className='myLink' href='https://www.linkedin.com/in/rachel-weisberger-7247a3163/'>LinkedIn</a>
+
       </div>
 
     </div>

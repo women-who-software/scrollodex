@@ -5,20 +5,50 @@
     grid-template-rows: auto;
     align-items: center;
 }
+
+.cardImage{
+    background-image: url(./dragonfly.jpg);
+    background-size: 100%;
+    background-position: 20%;
+}
+.cardImage:hover { transform: scale(1.05); }
+
 .card{
     margin: auto;
+    color: white;
     //padding: 1rem 1rem 1rem 1rem;
     //align-items: right;
     text-align: center;
-    //border: 2px solid white;
+    // border: 2px solid black;
 }
+
+.shadow{
+    text-shadow: 1px 1px 1px black;
+}
+
 .image {
+    border: solid 1px black;
     background-image: url(./rachelW_headshot.jpg);
   }
+  
 .imageContainer{
     //align-items: left;
     width: 120px;
     height: auto;
     margin: auto;
     border-radius: 50%;
+    border: black 3px;
+}
+.myLink{
+    background-color: darkolivegreen;    
+    padding: 5px;
+    margin: 5px;
+    margin-left: 25%;
+    border-radius: 7px;
+    border: solid 1px black;
+    align-items: center;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: small;
 }

@@ -9,7 +9,7 @@ function RachelWCard() {
             <img className="imageContainer" src={image} alt="headshot of Rachel Weisberger" />
         </div>
 
-        <div className="card">
+        <div className="rachelWCard">
             <h3 className="shadow">Rachel Weisberger</h3>
             <p className="shadow">Junior Software Engineer</p>
             <a className='myLink' href='https://rweisberger.github.io/'>Portfolio</a>

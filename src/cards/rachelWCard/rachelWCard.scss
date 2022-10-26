@@ -13,7 +13,7 @@
 }
 .cardImage:hover { transform: scale(1.05); }
 
-.card{
+.rachelWCard{
     margin: auto;
     color: white;
     //padding: 1rem 1rem 1rem 1rem;
@@ -43,11 +43,10 @@
     background-color: darkolivegreen;    
     padding: 5px;
     margin: 5px;
-    margin-left: 25%;
     border-radius: 7px;
     border: solid 1px black;
-    align-items: center;
-    width: 100px;
+    // align-items: center;
+    width: 120px;
     color: white;
     text-align: center;
     font-size: small;

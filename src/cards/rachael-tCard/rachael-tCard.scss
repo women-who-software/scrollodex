@@ -1,44 +1,44 @@
-.rachaelCardContainer{
+.rachaelCardContainer {
+  align-items: center;
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  align-items: center;
 }
-.rachaelCard{
+.rachaelCard {
   margin: auto;
   text-align: center;
 }
-.rachaelImageContainer{
-  width: 120px;
+.rachaelImageContainer {
+  border-color: #b60046;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
   height: auto;
   margin: auto;
-  border-radius: 50%;
-  border-color: #b60046;
-  border-width: 2px;
-  border-style: solid;
+  width: 120px;
 }
-.rachaelName{
+.rachaelName {
   color: #005eae;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
 }
-.rachaelTitle{
+.rachaelTitle {
   color: black;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
-.rachaelLinkContainer{
+.rachaelLinkContainer {
   display: flex;
   justify-content: space-around;
 }
-.rachaelLink{
+.rachaelLink {
   background-color: #005eae;
   border-radius: 20px;
   color: white;
   padding: 8px;
   text-decoration: none;
 }
-.rachaelLink:hover{
+.rachaelLink:hover {
   background-color: #b60046;
   color: white;
 }

@@ -1,19 +1,44 @@
-.cardContainer{
+.rachaelCardContainer{
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   align-items: center;
 }
-.card{
+.rachaelCard{
   margin: auto;
   text-align: center;
 }
-.image {
-  background-image: url(./rachael-t.png);
-}
-.imageContainer{
+.rachaelImageContainer{
   width: 120px;
   height: auto;
   margin: auto;
   border-radius: 50%;
+  border-color: #b60046;
+  border-width: 2px;
+  border-style: solid;
+}
+.rachaelName{
+  color: #005eae;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+.rachaelTitle{
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.rachaelLinkContainer{
+  display: flex;
+  justify-content: space-around;
+}
+.rachaelLink{
+  background-color: #005eae;
+  border-radius: 20px;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+}
+.rachaelLink:hover{
+  background-color: #b60046;
+  color: white;
 }

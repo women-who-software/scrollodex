@@ -4,17 +4,19 @@ import image from './rachael-t.png';
 
 function ExampleCard() {
   return (
-    <div className="cardContainer">
-      <div className="card">
-        <img className="imageContainer" src={image} alt="woman hiking in front of the mountains" />
+    <div className="rachaelCardContainer">
+      <div className="rachaelCard">
+        <img className="rachaelImageContainer" src={image} alt="woman hiking in front of the mountains" />
       </div>
 
-      <div className="card">
-        <h3>Rachael Thomas</h3>
-        <p>Senior Technical Support Engineer</p>
-        <a href="https://www.github.com/rachael-t">GitHub</a>
-        <br></br>
-        <a href="https://www.linkedin.com/in/rachael-lenss-thomas">LinkedIn</a>
+      <div className="rachaelCard">
+        <h3 className="rachaelName">Rachael Thomas</h3>
+        <p className="rachaelTitle">Senior Technical Support Engineer</p>
+        <div className="rachaelLinkContainer">
+          <a className="rachaelLink" href="https://www.github.com/rachael-t">GitHub</a>
+          <br></br>
+          <a className="rachaelLink" href="https://www.linkedin.com/in/rachael-lenss-thomas">LinkedIn</a>
+        </div>
       </div>
     </div>
   );

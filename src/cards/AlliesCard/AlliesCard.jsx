@@ -9,7 +9,7 @@ function AlliesCard() {
         <img
           className="allieImageContainer"
           src={image}
-          alt="example headshot of a woman"
+          alt="Smiling tall white woman with long blonde hair wearing glasses and a red and deep blue floral print blouse sits in front of a white brick wall"
         />
       </div>
 

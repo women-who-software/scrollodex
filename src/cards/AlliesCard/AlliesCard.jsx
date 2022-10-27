@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import "./AlliesCard.scss";
 import image from "./allies_headshot.JPG";
 
 function AlliesCard() {
+  const [darkMode, setDarkMode] = useState(false);
+
+  function toggleDarkMode() {
+    if (darkMode === false) {
+      setDarkMode(true);
+    } else {
+      setDarkMode(false);
+    }
+  }
+
   return (
-    <div className="cardContainer">
-      <div className="card">
+    <div className={`${darkMode ? "dark" : "light"}AllieCardContainer`}>
+      <div className="alliecard">
         <img
           className="allieImageContainer"
           src={image}
@@ -13,10 +23,34 @@ function AlliesCard() {
         />
       </div>
 
-      <div className="card">
+      <div className="alliecard">
         <h3>Allie LeFever</h3>
         <p>Software Engineer</p>
-        <a href="https://www.linkedin.com/in/allie-lefever/">LinkedIn</a>
+        <button className="allieLinkButton">
+          <a
+            className="allieLink"
+            href="https://www.linkedin.com/in/allie-lefever/"
+          >
+            LinkedIn
+          </a>
+        </button>
+        <button className="allieLinkButton">
+          <a className="allieLink" href="https://github.com/alefever39">
+            GitHub
+          </a>
+        </button>
+      </div>
+
+      <div></div>
+      <div className="allieDarkButtonContainer">
+        <button
+          onClick={toggleDarkMode}
+          className={`allieDarkButton ${
+            darkMode ? "dark" : "light"
+          }AllieDarkButton`}
+        >
+          Dark Mode
+        </button>
       </div>
     </div>
   );

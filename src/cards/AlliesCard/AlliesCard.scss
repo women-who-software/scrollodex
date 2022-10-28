@@ -70,7 +70,7 @@
 .allieDarkButton {
   border-radius: 2rem;
   font-size: 0.8rem;
-  width: 5rem;
+  width: auto;
   height: 1.5rem;
 }
 
@@ -92,4 +92,5 @@
 
 .darkAllieDarkButton:hover {
   background-color: rgb(51, 206, 226);
+  color: black;
 }

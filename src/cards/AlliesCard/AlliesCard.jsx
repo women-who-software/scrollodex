@@ -49,7 +49,7 @@ function AlliesCard() {
             darkMode ? "dark" : "light"
           }AllieDarkButton`}
         >
-          Dark Mode
+          {darkMode ? "Light Mode" : "Dark Mode"}
         </button>
       </div>
     </div>

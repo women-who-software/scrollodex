@@ -19,6 +19,12 @@ function RachelCard() {
           target="_blank"
           href="https://github.com/rteeter"
         >GitHub</a>
+        <a
+          rel="noreferrer"
+          className="rtlink"
+          target="_blank"
+          href="https://www.linkedin.com/in/rachelteeter/"
+        >LinkedIn</a>
       </div>
 
     </div>

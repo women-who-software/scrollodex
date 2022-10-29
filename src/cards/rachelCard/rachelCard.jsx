@@ -7,7 +7,7 @@ function RachelCard() {
     <div className="rtCardContainer">
 
       <div className="rtcard">
-        <img className="rtimageContainer" src={image} alt="rachel headshot" />
+        <img className="rtimageContainer" src={image} alt="Headshot of Rachel, Software Engineer" />
       </div>
 
       <div className="rtcard">
@@ -19,6 +19,12 @@ function RachelCard() {
           target="_blank"
           href="https://github.com/rteeter"
         >GitHub</a>
+        <a
+          rel="noreferrer"
+          className="rtlink"
+          target="_blank"
+          href="https://www.linkedin.com/in/rachelteeter/"
+        >LinkedIn</a>
       </div>
 
     </div>

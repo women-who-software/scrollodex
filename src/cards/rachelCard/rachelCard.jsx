@@ -7,7 +7,7 @@ function RachelCard() {
     <div className="rtCardContainer">
 
       <div className="rtcard">
-        <img className="rtimageContainer" src={image} alt="rachel headshot" />
+        <img className="rtimageContainer" src={image} alt="Headshot of Rachel, Software Engineer" />
       </div>
 
       <div className="rtcard">

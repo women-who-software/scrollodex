@@ -9,7 +9,7 @@ function JordanCard() {
   const { jordan } = useContext(CardContext);
 
   return (
-    <div className="cardContainer mj-card-container">
+    <div id="mj-card-container" className="cardContainer card-style-default">
       <div className="card">
         <svg
           viewBox="0 0 288 300.41"

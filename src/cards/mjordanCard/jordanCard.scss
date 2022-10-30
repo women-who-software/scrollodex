@@ -1,10 +1,18 @@
+@mixin gradientText {
+  background: var(--color_gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 #mj-card-container {
   --color_white: #ffffff;
   --color_black: #000000;
   --color_dark: #333333;
   --color_blue: rgb(22, 134, 190);
+
+  color: var(--color_black);
   svg {
-    min-width: 120px;
+    min-width: 150px;
   }
   .card {
     .card-details {
@@ -30,6 +38,7 @@
   .style-options {
     border-top: 3px solid;
     padding: 10px 0 0;
+    margin-top: 10px;
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-around;
@@ -45,10 +54,10 @@
   }
 
   // --------------------------------------------------------------------
-  // DEFAULT STYLE
+  // RAINBOW STYLE
   // --------------------------------------------------------------------
-  &.card-style-default {
-    background: linear-gradient(
+  &.card-style-rainbow {
+    --color_rainbow-gradient: linear-gradient(
       -45deg,
       rgba(255, 159, 159, 1),
       rgba(251, 198, 133, 1),
@@ -60,14 +69,28 @@
       rgba(203, 166, 200, 1),
       rgba(255, 159, 159, 1)
     );
+    --color_gradient: linear-gradient(
+      90deg,
+      rgba(255, 000, 000, 1) 0%,
+      rgba(255, 154, 000, 1) 20%,
+      rgba(208, 222, 033, 1) 30%,
+      rgba(079, 220, 074, 1) 40%,
+      rgba(063, 218, 216, 1) 50%,
+      rgba(047, 201, 226, 1) 60%,
+      rgba(028, 127, 238, 1) 70%,
+      rgba(095, 021, 242, 1) 80%,
+      rgba(186, 012, 248, 1) 90%,
+      rgba(251, 007, 217, 1) 100%
+    );
+    background: var(--color_rainbow-gradient);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    color: var(--color_black);
+    animation: gradient 5s ease infinite;
     .card {
       .card-details {
         background: var(--color_white);
         h3 {
           border-bottom-color: var(--color_blue);
+          @include gradientText;
         }
         a {
           color: var(--color_black);
@@ -75,6 +98,9 @@
             text-decoration: none;
             color: var(--color_blue);
           }
+        }
+        span {
+          @include gradientText;
         }
       }
     }
@@ -93,7 +119,12 @@
         }
       }
       &.mj-image {
-        filter: grayscale(1);
+        img {
+          filter: grayscale(1);
+          border-radius: 50% 20%/10% 50%;
+          border: 5px solid var(--color_white);
+          outline: 10px dotted var(--color_white);
+        }
       }
     }
     .style-options {

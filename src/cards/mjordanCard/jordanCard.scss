@@ -1,19 +1,108 @@
-.mj-card-container {
-  // grid-template-columns: 120px 1fr;
-  background: linear-gradient(
-    -45deg,
-    rgba(255, 159, 159, 1),
-    rgba(251, 198, 133, 1),
-    rgba(251, 241, 121, 1),
-    rgba(169, 252, 126, 1),
-    rgba(130, 240, 200, 1),
-    rgba(149, 202, 228, 1),
-    rgba(168, 168, 216, 1),
-    rgba(203, 166, 200, 1),
-    rgba(255, 159, 159, 1)
-  );
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+#mj-card-container {
+  --color_white: #ffffff;
+  --color_black: #000000;
+  --color_dark: #333333;
+  --color_blue: rgb(22, 134, 190);
+  svg {
+    min-width: 120px;
+  }
+  .card {
+    .card-details {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: stretch;
+      h3 {
+        border-bottom: 2px solid transparent;
+      }
+      span {
+        font-weight: bold;
+      }
+      p,
+      h3 {
+        padding: 0 4px;
+        margin: 0;
+      }
+    }
+  }
+
+  .style-options {
+    border-top: 3px solid;
+    padding: 10px 0 0;
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-around;
+    button {
+      border: 1px solid;
+      background: none;
+      border-radius: 5px;
+      &.current-style {
+        border-width: 3px;
+        font-weight: bold;
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------
+  // DEFAULT STYLE
+  // --------------------------------------------------------------------
+  &.card-style-default {
+    background: linear-gradient(
+      -45deg,
+      rgba(255, 159, 159, 1),
+      rgba(251, 198, 133, 1),
+      rgba(251, 241, 121, 1),
+      rgba(169, 252, 126, 1),
+      rgba(130, 240, 200, 1),
+      rgba(149, 202, 228, 1),
+      rgba(168, 168, 216, 1),
+      rgba(203, 166, 200, 1),
+      rgba(255, 159, 159, 1)
+    );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: var(--color_black);
+    .card {
+      .card-details {
+        background: var(--color_white);
+        h3 {
+          border-bottom-color: var(--color_blue);
+        }
+        a {
+          color: var(--color_black);
+          &:hover {
+            text-decoration: none;
+            color: var(--color_blue);
+          }
+        }
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------
+  // DARK MODE STYLE
+  // --------------------------------------------------------------------
+  &.card-style-dark {
+    background: var(--color_dark);
+    color: var(--color_white);
+    .card {
+      .card-details {
+        a {
+          color: var(--color_white);
+        }
+      }
+      &.mj-image {
+        filter: grayscale(1);
+      }
+    }
+    .style-options {
+      button {
+        border-color: var(--color_white);
+        color: var(--color_white);
+      }
+    }
+  }
 }
 
 @keyframes gradient {
@@ -26,40 +115,4 @@
   100% {
     background-position: 0% 50%;
   }
-}
-
-.mj-card-container .card .card-details {
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: stretch;
-}
-
-.mj-card-container p,
-.mj-card-container h3 {
-  background: white;
-  padding: 0 4px;
-  margin: 0;
-}
-
-.mj-card-container h3 {
-  border-bottom: 2px solid rgb(22, 134, 190);
-}
-
-.mj-card-container p span {
-  font-weight: bold;
-}
-
-.mj-card-container a {
-  color: black;
-}
-
-.mj-card-container a:hover {
-  text-decoration: none;
-  color: rgb(22, 134, 190);
-}
-
-.mj-card-container svg {
-  min-width: 120px;
 }

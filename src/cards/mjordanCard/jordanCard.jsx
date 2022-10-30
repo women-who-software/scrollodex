@@ -59,7 +59,12 @@ function JordanCard() {
             />
           </svg>
         )}
-        {!StyleRainbow && <img src={image} />}
+        {!StyleRainbow && (
+          <img
+            src={image}
+            alt="artist rendered headshot of female human with brown hair and blue glasses"
+          />
+        )}
       </div>
 
       <div className="card">

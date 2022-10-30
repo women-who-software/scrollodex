@@ -9,7 +9,7 @@
 ## Git
 
 [Learn Git and Version Control in an Hour](https://www.freecodecamp.org/news/learn-git-and-version-control-in-an-hour/)
-
+[Learn Git Branching](learngitbranching.js.org)
 
 ## Accessibility
 
@@ -30,6 +30,8 @@
 [Image Color Picker](https://imagecolorpicker.com/)   
 [Upsplash](https://unsplash.com/)   
 [Pexels](https://www.pexels.com/)   
+[Design Code(for UI)](https://www.youtube.com/watchv=48YwaTiYau0)
+[CSS Design](https://www.creativebloq.com/inspiration/css-animation-examples)
 
 
 ## React Tutorial

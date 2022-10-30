@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { CardContext } from "../../App";
 import "./jordanCard.scss";
 import image from "./jordan.png";
@@ -8,9 +8,29 @@ import image from "./jordan.png";
 function JordanCard() {
   const { jordan } = useContext(CardContext);
 
+  const [styleDark, setStyleDark] = useState(false);
+  const [StyleDefault, setStyleDefault] = useState(true);
+
+  function swapStyle(newStyle) {
+    setStyleDark(false);
+    setStyleDefault(false);
+
+    if (newStyle === "dark") {
+      setStyleDark(true);
+    } else {
+      setStyleDefault(true);
+    }
+  }
+
   return (
-    <div id="mj-card-container" className="cardContainer card-style-default">
-      <div className="card">
+    <div
+      id="mj-card-container"
+      className={`cardContainer  
+      ${StyleDefault && "card-style-default"}
+      ${styleDark && "card-style-dark"}
+      `}
+    >
+      <div className="card mj-image">
         <svg
           viewBox="0 0 288 300.41"
           xmlns="http://www.w3.org/2000/svg"
@@ -58,6 +78,23 @@ function JordanCard() {
             </p>
           ))}
         </div>
+      </div>
+
+      <div className="style-options">
+        <button
+          className={`style-button ${StyleDefault && "current-style"}`}
+          type="button"
+          onClick={() => swapStyle("default")}
+        >
+          Default
+        </button>
+        <button
+          className={`style-button ${styleDark && "current-style"}`}
+          type="button"
+          onClick={() => swapStyle("dark")}
+        >
+          Dark Mode
+        </button>
       </div>
     </div>
   );

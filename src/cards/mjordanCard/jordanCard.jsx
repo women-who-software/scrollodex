@@ -8,17 +8,21 @@ import image from "./jordan.png";
 function JordanCard() {
   const { jordan } = useContext(CardContext);
 
-  const [styleDark, setStyleDark] = useState(false);
   const [StyleRainbow, setStyleRainbow] = useState(true);
+  const [styleDark, setStyleDark] = useState(false);
+  const [styleNeon, setStyleNeon] = useState(false);
 
   function swapStyle(newStyle) {
     setStyleDark(false);
     setStyleRainbow(false);
+    setStyleNeon(false);
 
     if (newStyle === "dark") {
       setStyleDark(true);
     } else if (newStyle === "rainbow") {
       setStyleRainbow(true);
+    } else if (newStyle === "neon") {
+      setStyleNeon(true);
     }
   }
 
@@ -27,6 +31,7 @@ function JordanCard() {
       id="mj-card-container"
       className={`cardContainer  
       ${styleDark && "card-style-dark"}
+      ${styleNeon && "card-style-neon"}
       ${StyleRainbow && "card-style-rainbow"}
       `}
     >
@@ -66,20 +71,23 @@ function JordanCard() {
               <a href={jordan.data["company-url"]}>{jordan.data.company}</a>
             </span>
           </p>
-          <p>
-            <a href={`mailto:${jordan.data.email}`}>{jordan.data.email}</a>
-          </p>
-          {Object.keys(jordan.data.sites || {}).map((label, idx) => (
-            <p key={`s-${idx}`}>
-              <a
-                href={`${jordan.data.sites[label]}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {jordan.data.sites[label].substring(8)}
-              </a>
+
+          <div className="mj-links">
+            <p>
+              <a href={`mailto:${jordan.data.email}`}>{jordan.data.email}</a>
             </p>
-          ))}
+            {Object.keys(jordan.data.sites || {}).map((label, idx) => (
+              <p key={`s-${idx}`}>
+                <a
+                  href={`${jordan.data.sites[label]}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {jordan.data.sites[label].substring(8)}
+                </a>
+              </p>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -98,6 +106,14 @@ function JordanCard() {
           onClick={() => swapStyle("dark")}
         >
           Dark Mode
+        </button>
+
+        <button
+          className={`style-button ${styleNeon && "current-style"}`}
+          type="button"
+          onClick={() => swapStyle("neon")}
+        >
+          Neon Mode
         </button>
       </div>
     </div>

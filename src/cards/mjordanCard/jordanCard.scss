@@ -7,8 +7,42 @@
 #mj-card-container {
   --color_white: #ffffff;
   --color_black: #000000;
-  --color_dark: #333333;
-  --color_blue: rgb(22, 134, 190);
+
+  --color_dark: #180f30;
+  --color_darkish: #382d57;
+  --color_red: #df4957;
+  --color_orange: #f68b21;
+  --color_yellow: #f9f763;
+  --color_green: #91dd21;
+  --color_blue: #328ff3;
+  --color_purple: #a229dd;
+  --color_pink: #e54695;
+
+  --color_rainbow-gradient: linear-gradient(
+    -45deg,
+    rgba(255, 159, 159, 1),
+    rgba(251, 198, 133, 1),
+    rgba(251, 241, 121, 1),
+    rgba(169, 252, 126, 1),
+    rgba(130, 240, 200, 1),
+    rgba(149, 202, 228, 1),
+    rgba(168, 168, 216, 1),
+    rgba(203, 166, 200, 1),
+    rgba(255, 159, 159, 1)
+  );
+  --color_bright-rainbow-gradient: linear-gradient(
+    90deg,
+    rgba(255, 000, 000, 1) 0%,
+    rgba(255, 154, 000, 1) 20%,
+    rgba(208, 222, 033, 1) 30%,
+    rgba(079, 220, 074, 1) 40%,
+    rgba(063, 218, 216, 1) 50%,
+    rgba(047, 201, 226, 1) 60%,
+    rgba(028, 127, 238, 1) 70%,
+    rgba(095, 021, 242, 1) 80%,
+    rgba(186, 012, 248, 1) 90%,
+    rgba(251, 007, 217, 1) 100%
+  );
 
   color: var(--color_black);
   svg {
@@ -43,7 +77,7 @@
   .style-options {
     border-top: 3px solid;
     padding: 10px 0 0;
-    margin-top: 10px;
+    margin-top: 20px;
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-around;
@@ -55,6 +89,9 @@
         border-width: 3px;
         font-weight: bold;
       }
+      &:not(.current-style) {
+        filter: grayscale(0.5);
+      }
     }
   }
 
@@ -62,31 +99,7 @@
   // RAINBOW STYLE
   // --------------------------------------------------------------------
   &.card-style-rainbow {
-    --color_rainbow-gradient: linear-gradient(
-      -45deg,
-      rgba(255, 159, 159, 1),
-      rgba(251, 198, 133, 1),
-      rgba(251, 241, 121, 1),
-      rgba(169, 252, 126, 1),
-      rgba(130, 240, 200, 1),
-      rgba(149, 202, 228, 1),
-      rgba(168, 168, 216, 1),
-      rgba(203, 166, 200, 1),
-      rgba(255, 159, 159, 1)
-    );
-    --color_gradient: linear-gradient(
-      90deg,
-      rgba(255, 000, 000, 1) 0%,
-      rgba(255, 154, 000, 1) 20%,
-      rgba(208, 222, 033, 1) 30%,
-      rgba(079, 220, 074, 1) 40%,
-      rgba(063, 218, 216, 1) 50%,
-      rgba(047, 201, 226, 1) 60%,
-      rgba(028, 127, 238, 1) 70%,
-      rgba(095, 021, 242, 1) 80%,
-      rgba(186, 012, 248, 1) 90%,
-      rgba(251, 007, 217, 1) 100%
-    );
+    --color_gradient: var(--color_bright-rainbow-gradient);
     background: var(--color_rainbow-gradient);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
@@ -109,12 +122,24 @@
         }
       }
     }
+    .style-options {
+      button {
+        background: white;
+        border-color: var(--color_blue);
+        span {
+          --color_gradient: var(--color_bright-rainbow-gradient);
+          @include gradientText;
+        }
+      }
+    }
   }
 
   // --------------------------------------------------------------------
   // DARK MODE STYLE
   // --------------------------------------------------------------------
   &.card-style-dark {
+    --color_dark: #333333;
+
     background: var(--color_dark);
     color: var(--color_white);
     .card {
@@ -134,23 +159,17 @@
     }
     .style-options {
       button {
-        border-color: var(--color_white);
+        background: var(--color_dark);
         color: var(--color_white);
+        border-color: var(--color_white);
       }
     }
   }
 
+  // --------------------------------------------------------------------
+  // NEON MODE STYLE
+  // --------------------------------------------------------------------
   &.card-style-neon {
-    --color_dark: #180f30;
-    --color_darkish: #382d57;
-    --color_red: #df4957;
-    --color_orange: #f68b21;
-    --color_yellow: #f9f763;
-    --color_green: #91dd21;
-    --color_blue: #328ff3;
-    --color_purple: #a229dd;
-    --color_pink: #e54695;
-
     background: var(--color_dark);
     background-image: linear-gradient(var(--color_darkish) 1px, transparent 1px),
       linear-gradient(to right, var(--color_darkish) 1px, transparent 1px);
@@ -197,7 +216,7 @@
         color: var(--color_pink);
         border-color: var(--color_pink);
         background: var(--color_dark);
-        border-radius: 5px;
+        box-shadow: inset 0 0 10px var(--color_pink);
       }
     }
   }

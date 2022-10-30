@@ -102,23 +102,23 @@ function JordanCard() {
           type="button"
           onClick={() => swapStyle("rainbow")}
         >
-          Rainbow Mode
+          <span>Rainbow Mode</span>
         </button>
 
         <button
-          className={`style-button ${styleDark && "current-style"}`}
+          className={`style-button  ${styleDark && "current-style"}`}
           type="button"
           onClick={() => swapStyle("dark")}
         >
-          Dark Mode
+          <span>Dark Mode</span>
         </button>
 
         <button
-          className={`style-button ${styleNeon && "current-style"}`}
+          className={`style-button  ${styleNeon && "current-style"}`}
           type="button"
           onClick={() => swapStyle("neon")}
         >
-          Neon Mode
+          <span>Neon Mode</span>
         </button>
       </div>
     </div>

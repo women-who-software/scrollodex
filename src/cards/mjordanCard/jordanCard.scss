@@ -7,6 +7,7 @@
 }
 
 #mj-card-container {
+  transition: 500ms;
   --color_white: #ffffff;
   --color_black: #000000;
 
@@ -57,6 +58,9 @@
   position: relative;
   .card {
     .card-details {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
       text-align: right;
       display: flex;
       flex-direction: column;
@@ -274,6 +278,7 @@
       z-index: 999;
       animation: ghostDance 15s infinite alternate;
       opacity: 0.5;
+      pointer-events: none;
     }
   }
 
@@ -300,6 +305,8 @@
         }
       }
       .card-details {
+        animation: mondrianRotate 1s forwards;
+
         h3 {
           @include gradientText;
           border-bottom: 5px solid yellow;
@@ -397,5 +404,14 @@
   100% {
     right: 0;
     bottom: 75%;
+  }
+}
+
+@keyframes mondrianRotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(90deg);
   }
 }

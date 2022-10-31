@@ -1,0 +1,54 @@
+#ghost {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  > div {
+    background: rgba(255, 255, 255, 1);
+  }
+}
+
+#body {
+  height: 50px;
+  width: 40px;
+  border-radius: 100% 100% 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  .ruffle {
+    width: 13px;
+    height: 13px;
+    background: #ffffff;
+    border-radius: 100%;
+    margin-bottom: -5px;
+  }
+  #face {
+    position: absolute;
+    align-self: flex-start;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .eyes {
+      width: 5px;
+      height: 5px;
+      border-radius: 100%;
+      background: black;
+    }
+  }
+}
+
+.hands {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  &.left {
+    margin-left: -5px;
+  }
+  &.right {
+    margin-right: -5px;
+  }
+}

@@ -2,20 +2,23 @@ import React, { useContext, useState } from "react";
 import { CardContext } from "../../App";
 import "./jordanCard.scss";
 import image from "./jordan.png";
+import GhostFriend from "./ghost";
 
 //
 
 function JordanCard() {
   const { jordan } = useContext(CardContext);
 
-  const [StyleRainbow, setStyleRainbow] = useState(true);
+  const [styleRainbow, setStyleRainbow] = useState(true);
   const [styleDark, setStyleDark] = useState(false);
   const [styleNeon, setStyleNeon] = useState(false);
+  const [styleSpooky, setStyleSpooky] = useState(false);
 
   function swapStyle(newStyle) {
     setStyleDark(false);
     setStyleRainbow(false);
     setStyleNeon(false);
+    setStyleSpooky(false);
 
     if (newStyle === "dark") {
       setStyleDark(true);
@@ -23,6 +26,8 @@ function JordanCard() {
       setStyleRainbow(true);
     } else if (newStyle === "neon") {
       setStyleNeon(true);
+    } else if (newStyle === "spooky") {
+      setStyleSpooky(true);
     }
   }
 
@@ -32,11 +37,15 @@ function JordanCard() {
       className={`cardContainer  
       ${styleDark && "card-style-dark"}
       ${styleNeon && "card-style-neon"}
-      ${StyleRainbow && "card-style-rainbow"}
+      ${styleRainbow && "card-style-rainbow"}
+      ${styleSpooky && "card-style-spooky"}
       `}
     >
+      <div id="ghost-friend">
+        <GhostFriend />
+      </div>
       <div className="card mj-image">
-        {StyleRainbow && (
+        {styleRainbow && (
           <svg
             viewBox="0 0 288 300.41"
             xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +68,7 @@ function JordanCard() {
             />
           </svg>
         )}
-        {!StyleRainbow && (
+        {!styleRainbow && (
           <img
             src={image}
             alt="artist rendered headshot of female human with brown hair and blue glasses"
@@ -98,27 +107,35 @@ function JordanCard() {
 
       <div className="style-options">
         <button
-          className={`style-button ${StyleRainbow && "current-style"}`}
+          className={`style-button ${styleRainbow && "current-style"}`}
           type="button"
           onClick={() => swapStyle("rainbow")}
         >
-          Rainbow Mode
+          <span>Rainbow</span>
         </button>
 
         <button
-          className={`style-button ${styleDark && "current-style"}`}
+          className={`style-button  ${styleDark && "current-style"}`}
           type="button"
           onClick={() => swapStyle("dark")}
         >
-          Dark Mode
+          <span>Dark</span>
         </button>
 
         <button
-          className={`style-button ${styleNeon && "current-style"}`}
+          className={`style-button  ${styleNeon && "current-style"}`}
           type="button"
           onClick={() => swapStyle("neon")}
         >
-          Neon Mode
+          <span>Neon</span>
+        </button>
+
+        <button
+          className={`style-button  ${styleSpooky && "current-style"}`}
+          type="button"
+          onClick={() => swapStyle("spooky")}
+        >
+          <span>Spooky</span>
         </button>
       </div>
     </div>

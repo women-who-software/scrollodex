@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
 @mixin gradientText {
   background: var(--color_gradient);
   -webkit-background-clip: text;
@@ -45,6 +47,7 @@
   );
 
   color: var(--color_black);
+  position: relative;
   svg {
     min-width: 150px;
   }
@@ -93,6 +96,10 @@
         filter: grayscale(0.5);
       }
     }
+  }
+
+  #ghost-friend {
+    display: none;
   }
 
   // --------------------------------------------------------------------
@@ -220,6 +227,45 @@
       }
     }
   }
+
+  // --------------------------------------------------------------------
+  // SPOOKY MODE STYLE
+  // --------------------------------------------------------------------
+  &.card-style-spooky {
+    background: var(--color_black);
+    color: var(--color_orange);
+    .card {
+      &.mj-image {
+        filter: hue-rotate(90deg);
+      }
+      .card-details {
+        h3 {
+          font-family: "Creepster";
+        }
+        span a,
+        span {
+          color: var(--color_white);
+        }
+        a {
+          color: var(--color_orange);
+        }
+      }
+    }
+    .style-options {
+      button {
+        background: var(--color_black);
+        color: var(--color_orange);
+        border-color: var(--color_orange);
+      }
+    }
+    #ghost-friend {
+      display: block;
+      position: absolute;
+      z-index: 999;
+      animation: ghostDance 15s infinite alternate;
+      opacity: 0.5;
+    }
+  }
 }
 
 @keyframes gradient {
@@ -231,5 +277,26 @@
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes ghostDance {
+  0% {
+    right: 0;
+    bottom: 0;
+  }
+  25% {
+    right: 200px;
+  }
+  50% {
+    right: 25px;
+    bottom: 36.5%;
+  }
+  75% {
+    right: 175px;
+  }
+  100% {
+    right: 0;
+    bottom: 75%;
   }
 }

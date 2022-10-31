@@ -4,17 +4,17 @@ import "./ghost.scss";
 function GhostFriend() {
   return (
     <div id="ghost">
-      <div class="hands right"></div>
+      <div className="hands right"></div>
       <div id="body">
         <div id="face">
-          <div class="eyes right"></div>
-          <div class="eyes left"></div>
+          <div className="eyes right"></div>
+          <div className="eyes left"></div>
         </div>
-        <div class="ruffle"></div>
-        <div class="ruffle"></div>
-        <div class="ruffle"></div>
+        <div className="ruffle"></div>
+        <div className="ruffle"></div>
+        <div className="ruffle"></div>
       </div>
-      <div class="hands left"></div>
+      <div className="hands left"></div>
     </div>
   );
 }

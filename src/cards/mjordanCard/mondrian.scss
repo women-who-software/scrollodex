@@ -1,0 +1,43 @@
+#grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: black;
+  grid-gap: 3px;
+  border: 3px solid black;
+  .cell {
+    &:nth-child(1) {
+      background: white;
+      grid-row: span 3;
+      grid-column: span 2;
+    }
+    &:nth-child(2) {
+      background: red;
+      grid-row: span 6;
+      grid-column: span 7;
+    }
+    &:nth-child(3) {
+      background: white;
+      grid-row: span 3;
+      grid-column: span 2;
+    }
+    &:nth-child(4) {
+      background: blue;
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    &:nth-child(5) {
+      background: white;
+      grid-row: span 2;
+      grid-column: span 6;
+    }
+    &:nth-child(6) {
+      background: white;
+    }
+    &:nth-child(7) {
+      background: yellow;
+    }
+  }
+}

@@ -3,6 +3,7 @@ import { CardContext } from "../../App";
 import "./jordanCard.scss";
 import image from "./jordan.png";
 import GhostFriend from "./ghost";
+import Mondrian from "./mondrian";
 
 //
 
@@ -13,12 +14,14 @@ function JordanCard() {
   const [styleDark, setStyleDark] = useState(false);
   const [styleNeon, setStyleNeon] = useState(false);
   const [styleSpooky, setStyleSpooky] = useState(false);
+  const [styleMondrian, setStyleMondrian] = useState(false);
 
   function swapStyle(newStyle) {
     setStyleDark(false);
     setStyleRainbow(false);
     setStyleNeon(false);
     setStyleSpooky(false);
+    setStyleMondrian(false);
 
     if (newStyle === "dark") {
       setStyleDark(true);
@@ -28,6 +31,8 @@ function JordanCard() {
       setStyleNeon(true);
     } else if (newStyle === "spooky") {
       setStyleSpooky(true);
+    } else if (newStyle === "mondrian") {
+      setStyleMondrian(true);
     }
   }
 
@@ -39,6 +44,7 @@ function JordanCard() {
       ${styleNeon && "card-style-neon"}
       ${styleRainbow && "card-style-rainbow"}
       ${styleSpooky && "card-style-spooky"}
+      ${styleMondrian && "card-style-mondrian"}
       `}
     >
       <div id="ghost-friend">
@@ -74,6 +80,7 @@ function JordanCard() {
             alt="artist rendered headshot of female human with brown hair and blue glasses"
           />
         )}
+        {styleMondrian && <Mondrian />}
       </div>
 
       <div className="card">
@@ -136,6 +143,14 @@ function JordanCard() {
           onClick={() => swapStyle("spooky")}
         >
           <span>Spooky</span>
+        </button>
+
+        <button
+          className={`style-button  ${styleMondrian && "current-style"}`}
+          type="button"
+          onClick={() => swapStyle("mondrian")}
+        >
+          <span>Mondrian</span>
         </button>
       </div>
     </div>

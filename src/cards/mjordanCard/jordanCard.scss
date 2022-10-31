@@ -45,11 +45,22 @@
     rgba(186, 012, 248, 1) 90%,
     rgba(251, 007, 217, 1) 100%
   );
+  --color_mondrian-gradient: linear-gradient(
+    90deg,
+    red 0%,
+    red 50%,
+    blue 51%,
+    blue 100%
+  );
 
   color: var(--color_black);
   position: relative;
+  transition: 500ms;
+  grid-template-columns: 1fr minmax(250px, 1fr);
   .card {
     .card-details {
+      width: 200px;
+      height: 200px;
       text-align: right;
       display: flex;
       flex-direction: column;
@@ -70,12 +81,14 @@
     &.mj-image {
       img {
         border-radius: 0;
-        min-width: 150px;
-        width: 150px;
-        max-width: 150px;
+        min-width: 100px;
+        width: 100%;
+        // max-width: 150px;
       }
       svg {
-        min-width: 150px;
+        min-width: 100px;
+        width: 100%;
+        max-width: 150px;
       }
     }
   }
@@ -83,10 +96,12 @@
   .style-options {
     border-top: 3px solid;
     padding: 10px 0 0;
-    margin-top: 20px;
+    margin: 20px auto 0;
+    width: 100%;
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     button {
       border: 1px solid;
       background: none;
@@ -177,7 +192,7 @@
   }
 
   // --------------------------------------------------------------------
-  // NEON MODE STYLE
+  // NEON STYLE
   // --------------------------------------------------------------------
   &.card-style-neon {
     background: var(--color_dark);
@@ -232,7 +247,7 @@
   }
 
   // --------------------------------------------------------------------
-  // SPOOKY MODE STYLE
+  // SPOOKY STYLE
   // --------------------------------------------------------------------
   &.card-style-spooky {
     background: var(--color_black);
@@ -267,6 +282,98 @@
       z-index: 999;
       animation: ghostDance 15s infinite alternate;
       opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+
+  // --------------------------------------------------------------------
+  // MONDRIAN STYLE
+  // --------------------------------------------------------------------
+  &.card-style-mondrian {
+    --color_gradient: var(--color_mondrian-gradient);
+    background: white;
+    .card {
+      &.mj-image {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        box-sizing: border-box;
+        border: 2px solid black;
+        img {
+          position: absolute;
+          top: -2px;
+          left: -2px;
+          mix-blend-mode: lighten;
+          filter: grayscale(1);
+        }
+      }
+      .card-details {
+        animation: mondrianRotate 1s forwards;
+
+        h3 {
+          @include gradientText;
+          border-bottom: 5px solid yellow;
+        }
+        p span,
+        p a {
+          padding: 5px;
+          background: black;
+        }
+        span {
+          color: red;
+          a {
+            color: yellow;
+          }
+        }
+        .mj-links {
+          p:nth-child(1) a {
+            color: blue;
+          }
+          p:nth-child(2) a {
+            color: red;
+          }
+          p:nth-child(3) a {
+            color: yellow;
+          }
+        }
+      }
+    }
+    .style-options {
+      border-top-color: blue;
+      width: 90%;
+      button {
+        &:nth-child(1) {
+          background: blue;
+          color: white;
+          border-color: yellow;
+        }
+        &:nth-child(2) {
+          background: red;
+          color: white;
+          border-color: blue;
+        }
+        &:nth-child(3) {
+          background: yellow;
+          color: black;
+          border-color: red;
+        }
+        &:nth-child(4) {
+          background: blue;
+          color: white;
+          border-color: red;
+        }
+        &:nth-child(5) {
+          background: red;
+          color: white;
+          border-color: yellow;
+        }
+
+        &:hover {
+          &:not(.current-style) {
+            filter: grayscale(0);
+          }
+        }
+      }
     }
   }
 }
@@ -301,5 +408,14 @@
   100% {
     right: 0;
     bottom: 75%;
+  }
+}
+
+@keyframes mondrianRotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(90deg) translateY(20px);
   }
 }

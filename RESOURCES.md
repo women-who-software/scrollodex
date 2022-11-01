@@ -10,6 +10,7 @@
 
 [Learn Git and Version Control in an Hour](https://www.freecodecamp.org/news/learn-git-and-version-control-in-an-hour/)
 [Learn Git Branching](learngitbranching.js.org)
+[Git and GitHub Tutorial](https://www.freecodecamp.org/news/git-and-github-for-beginners/)
 
 ## Accessibility
 
